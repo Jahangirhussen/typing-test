@@ -185,6 +185,7 @@ main {
 }
 
 #text-display {
+  width: 100%;
   max-width: 800px;
   font-size: 1.5rem;
   line-height: 2.2rem;
@@ -195,6 +196,9 @@ main {
   background: var(--panel);
   border-radius: 12px;
   position: relative;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 #text-display.bangla { font-family: "Noto Sans Bengali", "Segoe UI", sans-serif; }
 

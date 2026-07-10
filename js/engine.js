@@ -65,7 +65,7 @@ class TypingEngine {
       } else if (i === typedLen) {
         cls = "current";
       }
-      html += `<span class="${cls}">${ch === " " ? "&nbsp;" : ch}</span>`;
+      html += `<span class="${cls}">${ch}</span>`;
     }
     this.textEl.innerHTML = html;
   }
