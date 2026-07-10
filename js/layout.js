@@ -156,7 +156,7 @@
           <a href="#" aria-label="X (Twitter)">✕</a>
           <a href="#" aria-label="Instagram">📷</a>
           <a href="#" aria-label="YouTube">▶️</a>
-          <a href="mailto:support@typingtest.example" aria-label="Email">✉️</a>
+          <a href="mailto:jahangirhussen.programmer@gmail.com" aria-label="Email">✉️</a>
         </div>
       </div>
       <div class="footer-col">

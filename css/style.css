@@ -714,6 +714,33 @@ img, svg { max-width: 100%; }
 .testimonial { font-size: .95rem; color: var(--text); font-style: italic; }
 .testimonial .label { font-style: normal; color: var(--dim); margin-top: 10px; font-size: .8rem; }
 
+.contact-page .section, .contact-page .hero { text-align: center; }
+.contact-card { gap: 4px; }
+.contact-card svg { color: var(--accent); margin-bottom: 4px; }
+.contact-card p { word-break: break-word; }
+
+.contact-form {
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+.contact-form label { color: var(--dim); font-size: .82rem; margin-top: 10px; }
+.contact-form input, .contact-form textarea {
+  background: var(--panel);
+  border: 1px solid #2a2e38;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: .92rem;
+  resize: vertical;
+}
+.contact-form input:focus, .contact-form textarea:focus { outline: none; border-color: var(--accent); }
+.contact-form button { margin-top: 20px; align-self: center; }
+
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .5s ease, transform .5s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 @media (prefers-reduced-motion: reduce) {
