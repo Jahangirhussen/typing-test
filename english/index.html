@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Typing Test</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="../index.html">⌨ TypingTest</a>
+  <nav>
+    <a class="active" href="../english/index.html">English</a>
+    <a href="../bangla/index.html">বাংলা</a>
+    <a href="../stats/index.html">Stats</a>
+    <button id="theme-toggle" title="Switch theme">🎨</button>
+    <button id="sound-toggle" title="Toggle sound">🔊</button>
+  </nav>
+</header>
+<main>
+  <div class="controls">
+    <div class="control-group" id="mode-group">
+      <button data-mode="words" data-tier="top200">Top 200</button>
+      <button data-mode="words" data-tier="top1000" class="active">Top 1000</button>
+      <button data-mode="words" data-tier="top5000">Top 5000</button>
+      <button data-mode="sentences">Sentences</button>
+      <button data-mode="quotes">Quotes</button>
+      <button data-mode="general">Paragraphs</button>
+      <button data-mode="ielts">IELTS</button>
+      <button data-mode="academic">Academic</button>
+      <button data-mode="business">Business</button>
+      <button data-mode="technology">Technology</button>
+      <button data-mode="programming">Programming</button>
+    </div>
+    <div class="control-group" id="duration-group">
+      <button data-duration="15">15s</button>
+      <button data-duration="30" class="active">30s</button>
+      <button data-duration="60">60s</button>
+      <button data-duration="120">2m</button>
+      <button data-duration="300">5m</button>
+      <button data-duration="600">10m</button>
+    </div>
+    <div class="control-group" id="difficulty-group">
+      <button data-difficulty="beginner">Beginner</button>
+      <button data-difficulty="easy">Easy</button>
+      <button data-difficulty="medium" class="active">Medium</button>
+      <button data-difficulty="hard">Hard</button>
+      <button data-difficulty="expert">Expert</button>
+    </div>
+  </div>
+
+  <div class="stats-bar">
+    <div><span class="value" id="stat-time">30</span><span class="label">Time</span></div>
+    <div><span class="value" id="stat-wpm">0</span><span class="label">WPM</span></div>
+    <div><span class="value" id="stat-cpm">0</span><span class="label">CPM</span></div>
+    <div><span class="value" id="stat-accuracy">100%</span><span class="label">Accuracy</span></div>
+  </div>
+
+  <div id="text-display" tabindex="0"></div>
+  <input type="text" id="hidden-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+  <div class="result-panel" id="result-panel" style="display:none;">
+    <div class="metric"><div class="value" id="res-wpm">0</div><div class="label">WPM</div></div>
+    <div class="metric"><div class="value" id="res-cpm">0</div><div class="label">CPM</div></div>
+    <div class="metric"><div class="value" id="res-accuracy">0%</div><div class="label">Accuracy</div></div>
+    <div class="metric"><div class="value" id="res-errors">0</div><div class="label">Errors</div></div>
+    <div class="metric"><div class="value" id="res-chars">0</div><div class="label">Characters</div></div>
+    <div class="metric"><div class="value" id="res-best">0</div><div class="label">Best WPM</div></div>
+  </div>
+
+  <div class="result-actions">
+    <button class="primary" id="restart-btn">Restart (Tab)</button>
+    <button class="secondary" id="copy-btn" style="display:none;">Copy Result</button>
+    <button class="secondary" id="share-btn" style="display:none;">Share Result</button>
+  </div>
+</main>
+<footer>&copy; 2026 TypingTest</footer>
+
+<script src="../js/app.js"></script>
+<script src="../js/content.js"></script>
+<script src="../js/engine.js"></script>
+<script>
+  const textEl = document.getElementById("text-display");
+  const inputEl = document.getElementById("hidden-input");
+  const resultPanel = document.getElementById("result-panel");
+  let duration = 30;
+  let mode = "words";
+  let wordTier = "top1000";
+  let difficulty = "medium";
+
+  const statsEls = {
+    wpm: document.getElementById("stat-wpm"),
+    cpm: document.getElementById("stat-cpm"),
+    accuracy: document.getElementById("stat-accuracy"),
+    time: document.getElementById("stat-time"),
+  };
+
+  let engine;
+
+  function startEngine() {
+    resultPanel.style.display = "none";
+    textEl.style.display = "block";
+    engine = new TypingEngine({
+      lang: "english",
+      mode, wordTier, difficulty,
+      textEl, inputEl, statsEls, duration,
+      onFinish: showResult,
+      onReady: () => engine.focus(),
+    });
+  }
+
+  function showResult(result) {
+    textEl.style.display = "none";
+    resultPanel.style.display = "grid";
+    document.getElementById("res-wpm").textContent = result.wpm;
+    document.getElementById("res-cpm").textContent = result.cpm;
+    document.getElementById("res-accuracy").textContent = result.accuracy + "%";
+    document.getElementById("res-errors").textContent = result.errors;
+    document.getElementById("res-chars").textContent = result.totalChars;
+    const best = getBest("english");
+    document.getElementById("res-best").textContent = best ? best.wpm : result.wpm;
+    playFinishSound();
+
+    const copyBtn = document.getElementById("copy-btn");
+    const shareBtn = document.getElementById("share-btn");
+    const resultText = `I typed ${result.wpm} WPM with ${result.accuracy}% accuracy on TypingTest!`;
+    copyBtn.style.display = "inline-block";
+    shareBtn.style.display = navigator.share ? "inline-block" : "none";
+    copyBtn.onclick = () => navigator.clipboard.writeText(resultText);
+    shareBtn.onclick = () => navigator.share({ text: resultText });
+  }
+
+  document.getElementById("duration-group").addEventListener("click", (e) => {
+    if (e.target.tagName !== "BUTTON") return;
+    document.querySelectorAll("#duration-group button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    duration = parseInt(e.target.dataset.duration, 10);
+    startEngine();
+  });
+
+  document.getElementById("mode-group").addEventListener("click", (e) => {
+    if (e.target.tagName !== "BUTTON") return;
+    document.querySelectorAll("#mode-group button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    mode = e.target.dataset.mode;
+    wordTier = e.target.dataset.tier || "top1000";
+    startEngine();
+  });
+
+  document.getElementById("difficulty-group").addEventListener("click", (e) => {
+    if (e.target.tagName !== "BUTTON") return;
+    document.querySelectorAll("#difficulty-group button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    difficulty = e.target.dataset.difficulty;
+    startEngine();
+  });
+
+  document.getElementById("restart-btn").addEventListener("click", startEngine);
+  textEl.addEventListener("click", () => inputEl.focus());
+
+  startEngine();
+</script>
+</body>
+</html>

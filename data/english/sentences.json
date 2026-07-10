@@ -1,0 +1,2012 @@
+{
+  "sentences": [
+    {
+      "id": "en-s-0001",
+      "text": "Recovery after the flood took months, with volunteers gutting houses room by room."
+    },
+    {
+      "id": "en-s-0002",
+      "text": "A quiet determination carried her through the marathon's final, brutal mile."
+    },
+    {
+      "id": "en-s-0003",
+      "text": "Fresh basil from the balcony garden transformed an ordinary pasta into something special."
+    },
+    {
+      "id": "en-s-0004",
+      "text": "He replaced the porch light bulb just as the first trick-or-treaters rang the bell."
+    },
+    {
+      "id": "en-s-0005",
+      "text": "Every summer, the cousins gathered at their grandmother's lake house for two loud weeks."
+    },
+    {
+      "id": "en-s-0006",
+      "text": "He whispered, \"don't wake the baby,\" as he tiptoed past the nursery."
+    },
+    {
+      "id": "en-s-0007",
+      "text": "Subway cars packed tighter during rush hour than anyone thought physically possible."
+    },
+    {
+      "id": "en-s-0008",
+      "text": "They held the funeral outdoors, exactly as she had requested years before."
+    },
+    {
+      "id": "en-s-0009",
+      "text": "The robot arm assembled the parts with a precision no human hand could match."
+    },
+    {
+      "id": "en-s-0010",
+      "text": "The barista remembered her order before she even finished saying good morning."
+    },
+    {
+      "id": "en-s-0011",
+      "text": "The apprentice chef diced onions until his eyes watered so badly he had to step outside."
+    },
+    {
+      "id": "en-s-0012",
+      "text": "She woke before her alarm again, staring at the ceiling until it finally rang."
+    },
+    {
+      "id": "en-s-0013",
+      "text": "The drummer lost his stick mid-song but somehow never missed a single beat."
+    },
+    {
+      "id": "en-s-0014",
+      "text": "The old treehouse finally collapsed last spring, decades after the kids who built it grew up."
+    },
+    {
+      "id": "en-s-0015",
+      "text": "Gardening taught her patience she never knew she had, one stubborn tomato plant at a time."
+    },
+    {
+      "id": "en-s-0016",
+      "text": "The apprentice electrician wired the whole panel wrong on his very first solo job."
+    },
+    {
+      "id": "en-s-0017",
+      "text": "The garden needed weeding badly, but the tomatoes had never looked healthier."
+    },
+    {
+      "id": "en-s-0018",
+      "text": "The night shift felt endless until the first hint of sunrise crept over the parking lot."
+    },
+    {
+      "id": "en-s-0019",
+      "text": "A crossword left unfinished on the table became a small daily challenge for the whole family."
+    },
+    {
+      "id": "en-s-0020",
+      "text": "The town hall meeting ran three hours over, mostly arguing about a single stop sign."
+    },
+    {
+      "id": "en-s-0021",
+      "text": "A quiet argument over directions ended with both of them admitting they were lost."
+    },
+    {
+      "id": "en-s-0022",
+      "text": "Traffic crawled for miles after an accident closed two lanes on the highway."
+    },
+    {
+      "id": "en-s-0023",
+      "text": "The comedian's timing was so precise that even the silences got laughs."
+    },
+    {
+      "id": "en-s-0024",
+      "text": "The rookie pitcher struck out the side in his very first inning, silencing the crowd."
+    },
+    {
+      "id": "en-s-0025",
+      "text": "Three missed calls and a dozen texts later, she finally picked up the phone."
+    },
+    {
+      "id": "en-s-0026",
+      "text": "He replaced his phone's cracked screen for the third time this year alone."
+    },
+    {
+      "id": "en-s-0027",
+      "text": "She journals every night, even if it's just a single sentence about the weather."
+    },
+    {
+      "id": "en-s-0028",
+      "text": "The clock on the wall was ten minutes fast, and nobody ever bothered to fix it."
+    },
+    {
+      "id": "en-s-0029",
+      "text": "The antique shop smelled of dust, varnish, and stories nobody could fully verify."
+    },
+    {
+      "id": "en-s-0030",
+      "text": "The interview lasted forty minutes, twenty of which were spent discussing a shared hobby."
+    },
+    {
+      "id": "en-s-0031",
+      "text": "A single paper crane sat on her desk, folded by someone she never quite identified."
+    },
+    {
+      "id": "en-s-0032",
+      "text": "The tailor measured twice, cut once, and still somehow needed a third measurement."
+    },
+    {
+      "id": "en-s-0033",
+      "text": "Her handwriting looped elegantly across the page, unlike anything taught in schools today."
+    },
+    {
+      "id": "en-s-0034",
+      "text": "The apprentice baker burned the first batch, then perfected the recipe by the third try."
+    },
+    {
+      "id": "en-s-0035",
+      "text": "The potter's hands moved instinctively, shaping clay without ever glancing at the wheel."
+    },
+    {
+      "id": "en-s-0036",
+      "text": "He whispered the answer so quietly that only the person next to him heard it."
+    },
+    {
+      "id": "en-s-0037",
+      "text": "They argued about the smallest things, yet somehow always made up before dinner."
+    },
+    {
+      "id": "en-s-0038",
+      "text": "The choir's harmony filled the cathedral, echoing long after the final note faded."
+    },
+    {
+      "id": "en-s-0039",
+      "text": "The toddler insisted on wearing rain boots, sunny skies notwithstanding."
+    },
+    {
+      "id": "en-s-0040",
+      "text": "The farmhouse sat miles from the nearest neighbor, silent except for the wind."
+    },
+    {
+      "id": "en-s-0041",
+      "text": "A single loose button on his coat finally gave way during the coldest week of winter."
+    },
+    {
+      "id": "en-s-0042",
+      "text": "The construction crew paused work whenever the church bells rang at noon."
+    },
+    {
+      "id": "en-s-0043",
+      "text": "The trail marker had faded so badly that hikers relied entirely on memory and luck."
+    },
+    {
+      "id": "en-s-0044",
+      "text": "The children built a fort out of couch cushions that somehow lasted the entire weekend."
+    },
+    {
+      "id": "en-s-0045",
+      "text": "The lake froze solid enough for skating by the second week of December."
+    },
+    {
+      "id": "en-s-0046",
+      "text": "Beekeepers checked the hives at dawn, before the bees grew restless in the midday heat."
+    },
+    {
+      "id": "en-s-0047",
+      "text": "The store closes at 9 p.m. on weekdays and 7 p.m. on Sundays."
+    },
+    {
+      "id": "en-s-0048",
+      "text": "Her umbrella collection grew every time she forgot one somewhere and had to buy another."
+    },
+    {
+      "id": "en-s-0049",
+      "text": "A paper airplane sailed clean across the classroom and landed on the teacher's desk."
+    },
+    {
+      "id": "en-s-0050",
+      "text": "The night owl outside his window hooted so consistently he set his clock by it."
+    },
+    {
+      "id": "en-s-0051",
+      "text": "Migrating geese flew overhead in a loose formation, honking as they passed the valley."
+    },
+    {
+      "id": "en-s-0052",
+      "text": "The retired sailor still ties every knot from memory, though his hands shake now."
+    },
+    {
+      "id": "en-s-0053",
+      "text": "She hemmed the dress herself, saving nearly forty dollars in alteration fees."
+    },
+    {
+      "id": "en-s-0054",
+      "text": "The community rebuilt the playground in a single weekend after the fire."
+    },
+    {
+      "id": "en-s-0055",
+      "text": "A single stray comma in the code caused the entire deployment to fail silently."
+    },
+    {
+      "id": "en-s-0056",
+      "text": "He signed the lease without reading past the second paragraph, which he later regretted."
+    },
+    {
+      "id": "en-s-0057",
+      "text": "The ferry ride across the strait took longer than expected, but nobody seemed to mind."
+    },
+    {
+      "id": "en-s-0058",
+      "text": "Their kids grew up together, practically raised by both families at once."
+    },
+    {
+      "id": "en-s-0059",
+      "text": "The satellite finally reached orbit after two failed launches earlier in the year."
+    },
+    {
+      "id": "en-s-0060",
+      "text": "He memorized the entire speech, then forgot every word the moment he stood up."
+    },
+    {
+      "id": "en-s-0061",
+      "text": "Volunteers planted two thousand trees along the riverbank in a single weekend."
+    },
+    {
+      "id": "en-s-0062",
+      "text": "A street musician played jazz on a battered saxophone outside the subway entrance."
+    },
+    {
+      "id": "en-s-0063",
+      "text": "The seamstress worked by lamplight, finishing the gown just hours before the show."
+    },
+    {
+      "id": "en-s-0064",
+      "text": "A local guide showed us hidden alleyways that never appeared on any tourist map."
+    },
+    {
+      "id": "en-s-0065",
+      "text": "The final whistle blew just as the striker sent the ball soaring into the top corner."
+    },
+    {
+      "id": "en-s-0066",
+      "text": "The toddler's first steps happened, of course, the one day nobody had a camera ready."
+    },
+    {
+      "id": "en-s-0067",
+      "text": "She added too much chili to the stew, and now everyone is reaching for water."
+    },
+    {
+      "id": "en-s-0068",
+      "text": "The coach called a timeout with ten seconds left, drawing up a play on a napkin."
+    },
+    {
+      "id": "en-s-0069",
+      "text": "The local paper ran the same headline for a week: bridge closed, tempers rising."
+    },
+    {
+      "id": "en-s-0070",
+      "text": "A quiet snowfall blanketed the town overnight, muffling every sound by morning."
+    },
+    {
+      "id": "en-s-0071",
+      "text": "The password must contain at least one number and one special character."
+    },
+    {
+      "id": "en-s-0072",
+      "text": "The forest smelled of pine and damp earth after the overnight rain finally stopped."
+    },
+    {
+      "id": "en-s-0073",
+      "text": "The violinist tuned her instrument backstage, ignoring the growing murmur of the crowd."
+    },
+    {
+      "id": "en-s-0074",
+      "text": "He collects vinyl records, chasing rare pressings from record shops across the country."
+    },
+    {
+      "id": "en-s-0075",
+      "text": "Our manager asked us to submit the quarterly report by Friday, no exceptions this time."
+    },
+    {
+      "id": "en-s-0076",
+      "text": "A family of deer wandered through the backyard just as the sun began to set."
+    },
+    {
+      "id": "en-s-0077",
+      "text": "The bridge, built over a century ago, still carries traffic every single day."
+    },
+    {
+      "id": "en-s-0078",
+      "text": "A single overdue library book cost him nearly as much as buying it outright."
+    },
+    {
+      "id": "en-s-0079",
+      "text": "He kept every ticket stub from every concert he'd ever attended, taped inside a notebook."
+    },
+    {
+      "id": "en-s-0080",
+      "text": "The library's book club chose a mystery nobody could actually solve."
+    },
+    {
+      "id": "en-s-0081",
+      "text": "She scored 98% on the exam, missing only one tricky question about photosynthesis."
+    },
+    {
+      "id": "en-s-0082",
+      "text": "The orchard owner still hand-picks the first apple of the season himself, every year."
+    },
+    {
+      "id": "en-s-0083",
+      "text": "Her passport photo looked nothing like her, a fact every border agent seemed to notice."
+    },
+    {
+      "id": "en-s-0084",
+      "text": "The old fortress once guarded the harbor, though it now stands mostly as a museum."
+    },
+    {
+      "id": "en-s-0085",
+      "text": "The film's soundtrack outsold the movie itself within the first month."
+    },
+    {
+      "id": "en-s-0086",
+      "text": "Woodworking requires more patience than skill, or so he keeps telling himself."
+    },
+    {
+      "id": "en-s-0087",
+      "text": "She knits scarves all winter, giving most of them away before spring arrives."
+    },
+    {
+      "id": "en-s-0088",
+      "text": "He recovered from the surgery faster than expected, thanks largely to sheer stubbornness."
+    },
+    {
+      "id": "en-s-0089",
+      "text": "Physical therapy hurt more than the injury itself, or so he kept insisting to anyone who'd listen."
+    },
+    {
+      "id": "en-s-0090",
+      "text": "They practiced the same song for weeks before finally performing it at the open mic."
+    },
+    {
+      "id": "en-s-0091",
+      "text": "Learning a new language at forty felt humbling, like being a child again in every conversation."
+    },
+    {
+      "id": "en-s-0092",
+      "text": "The gallery's newest exhibit features sculptures carved entirely from driftwood."
+    },
+    {
+      "id": "en-s-0093",
+      "text": "The campsite filled with the smell of woodsmoke as the sun finally dipped below the ridge."
+    },
+    {
+      "id": "en-s-0094",
+      "text": "The chess grandmaster resigned quietly, tipping over his own king with two fingers."
+    },
+    {
+      "id": "en-s-0095",
+      "text": "A power outage turned the neighborhood block party into an impromptu candlelight dinner."
+    },
+    {
+      "id": "en-s-0096",
+      "text": "The video went viral overnight, racking up millions of views nobody could explain."
+    },
+    {
+      "id": "en-s-0097",
+      "text": "Who left the window open during the storm?"
+    },
+    {
+      "id": "en-s-0098",
+      "text": "A single assassination triggered a chain of events that reshaped an entire continent."
+    },
+    {
+      "id": "en-s-0099",
+      "text": "He alphabetized his spice rack, then immediately forgot where he'd put the cinnamon."
+    },
+    {
+      "id": "en-s-0100",
+      "text": "He burned the garlic while distracted by a phone call, ruining the entire sauce."
+    },
+    {
+      "id": "en-s-0101",
+      "text": "Step one: preheat the oven; step two: pretend you remembered to preheat the oven."
+    },
+    {
+      "id": "en-s-0102",
+      "text": "The orchestra tuned their instruments for what felt like an eternity before the concert began."
+    },
+    {
+      "id": "en-s-0103",
+      "text": "The astronauts watched the sunrise sixteen times in a single day aboard the station."
+    },
+    {
+      "id": "en-s-0104",
+      "text": "Our internet went down right in the middle of the video call, naturally."
+    },
+    {
+      "id": "en-s-0105",
+      "text": "He learned to bake sourdough during a long winter, feeding the starter like a pet."
+    },
+    {
+      "id": "en-s-0106",
+      "text": "The interview panel asked the same question three different ways, testing his patience."
+    },
+    {
+      "id": "en-s-0107",
+      "text": "The factory's new assembly line cut production time nearly in half."
+    },
+    {
+      "id": "en-s-0108",
+      "text": "His umbrella turned inside out twice before he finally gave up and got soaked."
+    },
+    {
+      "id": "en-s-0109",
+      "text": "Dad always burned the pancakes on purpose, claiming the crispy ones tasted better."
+    },
+    {
+      "id": "en-s-0110",
+      "text": "He proposed at the same restaurant where they'd had their very first date."
+    },
+    {
+      "id": "en-s-0111",
+      "text": "A single sunflower grew taller than the fence, leaning toward the neighbor's yard instead."
+    },
+    {
+      "id": "en-s-0112",
+      "text": "The debate team argued both sides of the issue so well that nobody could tell which they believed."
+    },
+    {
+      "id": "en-s-0113",
+      "text": "Her diary entries grew shorter each year, though never any less honest."
+    },
+    {
+      "id": "en-s-0114",
+      "text": "Tomorrow's forecast calls for scattered showers, clearing by early afternoon."
+    },
+    {
+      "id": "en-s-0115",
+      "text": "The mail carrier knew every dog on the route by name, and most of the owners too."
+    },
+    {
+      "id": "en-s-0116",
+      "text": "A soft knock at the door interrupted the otherwise silent study session."
+    },
+    {
+      "id": "en-s-0117",
+      "text": "The intern impressed everyone by fixing the printer that had been broken for weeks."
+    },
+    {
+      "id": "en-s-0118",
+      "text": "He collected matchbooks from restaurants long after most people stopped using matches."
+    },
+    {
+      "id": "en-s-0119",
+      "text": "The old typewriter still worked, though the letter e stuck every third keystroke."
+    },
+    {
+      "id": "en-s-0120",
+      "text": "A gentle hum from the refrigerator was the only sound in the house past midnight."
+    },
+    {
+      "id": "en-s-0121",
+      "text": "Neighborhood kids built a lemonade stand that, remarkably, turned an actual profit."
+    },
+    {
+      "id": "en-s-0122",
+      "text": "A child's crayon drawing hung proudly beside the museum's most famous painting."
+    },
+    {
+      "id": "en-s-0123",
+      "text": "The forum debated the ending of the show for what felt like an eternity."
+    },
+    {
+      "id": "en-s-0124",
+      "text": "The tailor's shop closed early on Wednesdays, a tradition nobody remembers starting."
+    },
+    {
+      "id": "en-s-0125",
+      "text": "The carpenter sanded the tabletop until it felt smoother than glass under his palm."
+    },
+    {
+      "id": "en-s-0126",
+      "text": "Wow, that sunset is absolutely stunning tonight!"
+    },
+    {
+      "id": "en-s-0127",
+      "text": "Solar panels now cover most rooftops in the neighborhood, glinting in the afternoon sun."
+    },
+    {
+      "id": "en-s-0128",
+      "text": "The mechanic shook his head at the noise coming from under the hood."
+    },
+    {
+      "id": "en-s-0129",
+      "text": "Engineers spent the weekend patching the server after traffic spiked unexpectedly overnight."
+    },
+    {
+      "id": "en-s-0130",
+      "text": "How long has that plant been sitting there, dead?"
+    },
+    {
+      "id": "en-s-0131",
+      "text": "The night train rattled past sleeping towns, its whistle the only sound for miles."
+    },
+    {
+      "id": "en-s-0132",
+      "text": "The volcano had been dormant for centuries before it suddenly rumbled back to life."
+    },
+    {
+      "id": "en-s-0133",
+      "text": "Nobody warned him that the elevator only went up to the ninth floor."
+    },
+    {
+      "id": "en-s-0134",
+      "text": "Retirement suited him better than anyone expected, mostly because of the garden."
+    },
+    {
+      "id": "en-s-0135",
+      "text": "Her grandmother's garden still blooms every spring, tended now by careful new hands."
+    },
+    {
+      "id": "en-s-0136",
+      "text": "He still remembers the smell of his father's workshop, sawdust and old motor oil."
+    },
+    {
+      "id": "en-s-0137",
+      "text": "He apologized first, even though he wasn't entirely sure whose fault it had been."
+    },
+    {
+      "id": "en-s-0138",
+      "text": "Grandma's recipe calls for a pinch of nutmeg, though she never measures anything exactly."
+    },
+    {
+      "id": "en-s-0139",
+      "text": "The night watchman made his rounds by flashlight, humming the same tune every night."
+    },
+    {
+      "id": "en-s-0140",
+      "text": "She practiced the same violin passage forty times until every note finally rang true."
+    },
+    {
+      "id": "en-s-0141",
+      "text": "Her sketchbook filled with birds long before she ever learned any of their names."
+    },
+    {
+      "id": "en-s-0142",
+      "text": "The bakery's ovens ran all night before the holiday rush, filling the block with warmth."
+    },
+    {
+      "id": "en-s-0143",
+      "text": "Climate researchers spent months collecting ice core samples from the glacier's edge."
+    },
+    {
+      "id": "en-s-0144",
+      "text": "The plumber found the leak in under ten minutes, hidden behind a wall nobody suspected."
+    },
+    {
+      "id": "en-s-0145",
+      "text": "The negotiations dragged on for hours, ending only when both sides agreed to sleep on it."
+    },
+    {
+      "id": "en-s-0146",
+      "text": "I finally finished the presentation slides at midnight, just hours before the client call."
+    },
+    {
+      "id": "en-s-0147",
+      "text": "She spent undefined debugging the same stubborn error before finally finding the missing semicolon."
+    },
+    {
+      "id": "en-s-0148",
+      "text": "He replaced the broken fence post himself, refusing to call a professional."
+    },
+    {
+      "id": "en-s-0149",
+      "text": "The old bridge finally reopened after a full year of repairs and detours."
+    },
+    {
+      "id": "en-s-0150",
+      "text": "The revolution began quietly, with pamphlets passed hand to hand in dark alleys."
+    },
+    {
+      "id": "en-s-0151",
+      "text": "The breakup was quiet, almost anticlimactic after months of slow drifting apart."
+    },
+    {
+      "id": "en-s-0152",
+      "text": "His sketchbook is full of half-finished portraits, each abandoned for a different reason."
+    },
+    {
+      "id": "en-s-0153",
+      "text": "She trained for the marathon through two brutal winters before finally crossing the finish line."
+    },
+    {
+      "id": "en-s-0154",
+      "text": "Nothing beats warm bread straight from the oven on a cold winter evening."
+    },
+    {
+      "id": "en-s-0155",
+      "text": "Her father's old flannel shirt still smelled faintly of the workshop, years later."
+    },
+    {
+      "id": "en-s-0156",
+      "text": "The choir's youngest member forgot her line, then improvised one that fit perfectly."
+    },
+    {
+      "id": "en-s-0157",
+      "text": "The parrot learned to mimic the doorbell so precisely that guests kept knocking twice."
+    },
+    {
+      "id": "en-s-0158",
+      "text": "They moved abroad with two suitcases and a plan that changed within the first month."
+    },
+    {
+      "id": "en-s-0159",
+      "text": "He finally broke his personal record in the hundred meter dash, shaving off two tenths of a second."
+    },
+    {
+      "id": "en-s-0160",
+      "text": "He whittled the evening away on the porch, watching fireflies blink across the yard."
+    },
+    {
+      "id": "en-s-0161",
+      "text": "The recipe serves four, but we always double it for leftovers."
+    },
+    {
+      "id": "en-s-0162",
+      "text": "The farmers market had tomatoes so ripe they practically fell apart when sliced."
+    },
+    {
+      "id": "en-s-0163",
+      "text": "Hailstones the size of marbles rattled against the windows during the brief storm."
+    },
+    {
+      "id": "en-s-0164",
+      "text": "The submarine sandwich shop has used the same recipe since it opened decades ago."
+    },
+    {
+      "id": "en-s-0165",
+      "text": "The chatbot gave surprisingly thoughtful answers, though it still struggled with sarcasm."
+    },
+    {
+      "id": "en-s-0166",
+      "text": "The old dog waited by the door every evening, regardless of who was actually coming home."
+    },
+    {
+      "id": "en-s-0167",
+      "text": "The old radio tower blinked red against the night sky, visible from three counties over."
+    },
+    {
+      "id": "en-s-0168",
+      "text": "Her mother taught her to sew using a machine older than both of their birthdays combined."
+    },
+    {
+      "id": "en-s-0169",
+      "text": "The city never truly sleeps, even at three in the morning on a Tuesday."
+    },
+    {
+      "id": "en-s-0170",
+      "text": "A curious raccoon raided the campsite, leaving muddy prints across every open bag."
+    },
+    {
+      "id": "en-s-0171",
+      "text": "The temperature dropped ten degrees in an hour once the cold front swept through."
+    },
+    {
+      "id": "en-s-0172",
+      "text": "Thrift store finds filled his closet long before fast fashion ever crossed his mind."
+    },
+    {
+      "id": "en-s-0173",
+      "text": "A faint comet streaked across the sky, visible for only a few brief minutes."
+    },
+    {
+      "id": "en-s-0174",
+      "text": "A crumpled map in the glove compartment hadn't been updated in at least a decade."
+    },
+    {
+      "id": "en-s-0175",
+      "text": "Three cats, one dog, and a very patient turtle all live in that tiny apartment."
+    },
+    {
+      "id": "en-s-0176",
+      "text": "The archivist handled the fragile letters as though they might dissolve at any touch."
+    },
+    {
+      "id": "en-s-0177",
+      "text": "Grandpa taught him to whittle using nothing but a pocketknife and endless patience."
+    },
+    {
+      "id": "en-s-0178",
+      "text": "Fog rolled off the lake each morning, burning away slowly as the sun climbed higher."
+    },
+    {
+      "id": "en-s-0179",
+      "text": "She traded her window seat for an aisle one, just to stretch her legs more easily."
+    },
+    {
+      "id": "en-s-0180",
+      "text": "The experiment failed six times before the researchers finally isolated the variable."
+    },
+    {
+      "id": "en-s-0181",
+      "text": "He never admitted how nervous he was before every single job interview."
+    },
+    {
+      "id": "en-s-0182",
+      "text": "A rogue shopping cart rolled across the empty lot, pushed only by the wind."
+    },
+    {
+      "id": "en-s-0183",
+      "text": "Waves crashed against the cliffs, sending spray high into the salty air."
+    },
+    {
+      "id": "en-s-0184",
+      "text": "The old church bell cracked during a storm and was never quite the same again."
+    },
+    {
+      "id": "en-s-0185",
+      "text": "Half the class forgot their homework, blaming it on the unexpected fire drill."
+    },
+    {
+      "id": "en-s-0186",
+      "text": "Our flight was delayed by three hours, so we explored the airport's tiny bookstore instead."
+    },
+    {
+      "id": "en-s-0187",
+      "text": "Her thesis took four years to write and exactly one weekend to finally defend."
+    },
+    {
+      "id": "en-s-0188",
+      "text": "She deleted the app after realizing how many hours it quietly stole each week."
+    },
+    {
+      "id": "en-s-0189",
+      "text": "Traffic lights blinked yellow all night after the storm knocked out the intersection's power."
+    },
+    {
+      "id": "en-s-0190",
+      "text": "Their signature dish combines sweet mango with spicy peppers in a way that shouldn't work but does."
+    },
+    {
+      "id": "en-s-0191",
+      "text": "Historians still debate the true cause of the empire's sudden and swift collapse."
+    },
+    {
+      "id": "en-s-0192",
+      "text": "Spring arrived late this year, but the cherry blossoms made up for the wait."
+    },
+    {
+      "id": "en-s-0193",
+      "text": "Her recipe box held cards written in three different generations of handwriting."
+    },
+    {
+      "id": "en-s-0194",
+      "text": "The stray cat adopted the entire office, choosing a different desk to nap on each day."
+    },
+    {
+      "id": "en-s-0195",
+      "text": "Interest rates climbed again this quarter, tightening budgets across the entire industry."
+    },
+    {
+      "id": "en-s-0196",
+      "text": "The rover sent back images of a landscape no human eye had ever witnessed before."
+    },
+    {
+      "id": "en-s-0197",
+      "text": "Snow capped peaks lined the horizon, sharp against the pale morning sky."
+    },
+    {
+      "id": "en-s-0198",
+      "text": "The birthday cake collapsed slightly in transit, but nobody at the party seemed to mind."
+    },
+    {
+      "id": "en-s-0199",
+      "text": "The night sky turned green briefly during the aurora, and the whole town stepped outside."
+    },
+    {
+      "id": "en-s-0200",
+      "text": "She sat quietly by the window, watching the rain and thinking of nothing in particular."
+    },
+    {
+      "id": "en-s-0201",
+      "text": "Painting became his escape after a long week of spreadsheets and phone calls."
+    },
+    {
+      "id": "en-s-0202",
+      "text": "The recycling program cut the town's landfill waste by nearly a third."
+    },
+    {
+      "id": "en-s-0203",
+      "text": "The bakery donated its unsold bread to the shelter every single night without fail."
+    },
+    {
+      "id": "en-s-0204",
+      "text": "She noticed how her father's hands shook slightly as he tied her shoes that morning."
+    },
+    {
+      "id": "en-s-0205",
+      "text": "Honestly, I never expected the movie to end that way."
+    },
+    {
+      "id": "en-s-0206",
+      "text": "The old bicycle bell still rang, though the rest of the bike had rusted beyond repair."
+    },
+    {
+      "id": "en-s-0207",
+      "text": "The night baker's bread was always gone by seven, no matter how early customers arrived."
+    },
+    {
+      "id": "en-s-0208",
+      "text": "First dates are easier over coffee, she insists, because you can always leave early."
+    },
+    {
+      "id": "en-s-0209",
+      "text": "Dark clouds rolled in from the west just as we finished setting up the tent."
+    },
+    {
+      "id": "en-s-0210",
+      "text": "The apprentice mason learned to lay bricks straight only after tearing down his first wall."
+    },
+    {
+      "id": "en-s-0211",
+      "text": "Theater seats creaked as the lights dimmed and the orchestra began to tune."
+    },
+    {
+      "id": "en-s-0212",
+      "text": "Exam week left the dorm smelling like instant noodles and desperation."
+    },
+    {
+      "id": "en-s-0213",
+      "text": "The wildflower meadow buzzed with bees long before the hikers even reached the trailhead."
+    },
+    {
+      "id": "en-s-0214",
+      "text": "Her final stitch on the quilt matched the very first one she'd sewn decades before."
+    },
+    {
+      "id": "en-s-0215",
+      "text": "She hummed an old tune while folding laundry, not realizing anyone could hear her."
+    },
+    {
+      "id": "en-s-0216",
+      "text": "Trade routes across the desert connected civilizations that never met face to face."
+    },
+    {
+      "id": "en-s-0217",
+      "text": "A single firefly blinked near the porch light, the first sign of summer's arrival."
+    },
+    {
+      "id": "en-s-0218",
+      "text": "A single candle flickered on the windowsill long after the power went out."
+    },
+    {
+      "id": "en-s-0219",
+      "text": "Her closet held exactly one formal dress, worn to every wedding for the past decade."
+    },
+    {
+      "id": "en-s-0220",
+      "text": "\"That's not what I meant,\" she said, sighing and setting down her cup."
+    },
+    {
+      "id": "en-s-0221",
+      "text": "She missed her connecting flight but somehow arrived at the hotel before we did."
+    },
+    {
+      "id": "en-s-0222",
+      "text": "She meditates for ten minutes each morning, though she admits her mind rarely stays quiet."
+    },
+    {
+      "id": "en-s-0223",
+      "text": "Election season brought yard signs to every corner of the neighborhood."
+    },
+    {
+      "id": "en-s-0224",
+      "text": "The invoice total came to $482.50, due within thirty days of receipt."
+    },
+    {
+      "id": "en-s-0225",
+      "text": "The scout troop pitched their tents just as the first stars appeared overhead."
+    },
+    {
+      "id": "en-s-0226",
+      "text": "He built his first website using nothing but a text editor and pure stubbornness."
+    },
+    {
+      "id": "en-s-0227",
+      "text": "He replaced every light bulb in the house the same weekend one finally burned out."
+    },
+    {
+      "id": "en-s-0228",
+      "text": "Her handwriting on the birthday card was the last thing he read before falling asleep."
+    },
+    {
+      "id": "en-s-0229",
+      "text": "The ferryman has crossed the same river every morning for over thirty years."
+    },
+    {
+      "id": "en-s-0230",
+      "text": "She budgets every dollar in a spreadsheet her father taught her to build years ago."
+    },
+    {
+      "id": "en-s-0231",
+      "text": "Grocery prices crept up again, and the weekly shop suddenly felt more like a budget exercise."
+    },
+    {
+      "id": "en-s-0232",
+      "text": "The community garden turned an abandoned lot into rows of tomatoes and sunflowers."
+    },
+    {
+      "id": "en-s-0233",
+      "text": "The vineyard's harvest came early this year, thanks to an unusually warm spring."
+    },
+    {
+      "id": "en-s-0234",
+      "text": "The night market buzzed with vendors selling everything from noodles to phone cases."
+    },
+    {
+      "id": "en-s-0235",
+      "text": "She stayed after class every week just to ask the questions she was too shy to raise aloud."
+    },
+    {
+      "id": "en-s-0236",
+      "text": "A single encouraging comment from her teacher changed the entire course of her career."
+    },
+    {
+      "id": "en-s-0237",
+      "text": "A single loose kite string tangled itself around the old oak's lowest branch."
+    },
+    {
+      "id": "en-s-0238",
+      "text": "He spent every Saturday morning restoring an old motorcycle he found in a barn."
+    },
+    {
+      "id": "en-s-0239",
+      "text": "Regular walks improved his mood more than any of the apps he had tried before."
+    },
+    {
+      "id": "en-s-0240",
+      "text": "He built a raised bed for the vegetables, swearing it would save his aching back."
+    },
+    {
+      "id": "en-s-0241",
+      "text": "Letters from soldiers during the war revealed a side of history textbooks rarely mention."
+    },
+    {
+      "id": "en-s-0242",
+      "text": "The underdog boxer knocked out the reigning champion in the fourth round."
+    },
+    {
+      "id": "en-s-0243",
+      "text": "The old city's cobblestone streets made rolling suitcases nearly impossible to manage."
+    },
+    {
+      "id": "en-s-0244",
+      "text": "Wait, did you hear that noise coming from the attic?"
+    },
+    {
+      "id": "en-s-0245",
+      "text": "The recipe said simmer for twenty minutes, but it clearly needed at least forty."
+    },
+    {
+      "id": "en-s-0246",
+      "text": "A thick fog settled over the harbor, hiding even the largest ships from view."
+    },
+    {
+      "id": "en-s-0247",
+      "text": "The train wound slowly through the mountains, offering glimpses of villages tucked into the valleys."
+    },
+    {
+      "id": "en-s-0248",
+      "text": "The family business survived the recession by cutting costs nobody thought could be cut."
+    },
+    {
+      "id": "en-s-0249",
+      "text": "He never finishes a book without reading the last page first, just to be sure."
+    },
+    {
+      "id": "en-s-0250",
+      "text": "Her spreadsheet color-coded every possible outcome, just in case something went wrong."
+    },
+    {
+      "id": "en-s-0251",
+      "text": "The DIY shelf collapsed under the weight of exactly one paperback book."
+    },
+    {
+      "id": "en-s-0252",
+      "text": "He failed the exam twice before finally understanding what the formula actually meant."
+    },
+    {
+      "id": "en-s-0253",
+      "text": "The lighthouse keeper hadn't missed a single night in over twenty years."
+    },
+    {
+      "id": "en-s-0254",
+      "text": "The stock dropped sharply overnight, wiping out weeks of slow, steady gains."
+    },
+    {
+      "id": "en-s-0255",
+      "text": "The community choir sang carols outside the hospital, undeterred by the falling snow."
+    },
+    {
+      "id": "en-s-0256",
+      "text": "The orchestra pit filled with musicians tuning in a chaos that somehow resolved into harmony."
+    },
+    {
+      "id": "en-s-0257",
+      "text": "Scientists mapped the entire genome, though understanding it fully will take much longer."
+    },
+    {
+      "id": "en-s-0258",
+      "text": "The bakery down the street sells out of croissants before eight most mornings."
+    },
+    {
+      "id": "en-s-0259",
+      "text": "A flock of starlings twisted through the sky in shapes that shifted every second."
+    },
+    {
+      "id": "en-s-0260",
+      "text": "Every tile in the mosaic came from a broken plate someone once thought was ruined."
+    },
+    {
+      "id": "en-s-0261",
+      "text": "\"I'll be there in five minutes,\" she said, grabbing her keys."
+    },
+    {
+      "id": "en-s-0262",
+      "text": "The old covered bridge groaned under every car, though engineers insisted it was safe."
+    },
+    {
+      "id": "en-s-0263",
+      "text": "He kept a spare key under a fake rock that fooled absolutely no one, including burglars."
+    },
+    {
+      "id": "en-s-0264",
+      "text": "The blacksmith's hammer rang out in a rhythm that hadn't changed in centuries."
+    },
+    {
+      "id": "en-s-0265",
+      "text": "The night sky over the mountains revealed a meteor shower nobody had predicted."
+    },
+    {
+      "id": "en-s-0266",
+      "text": "The night baker arrived at three in the morning, long before the streets woke up."
+    },
+    {
+      "id": "en-s-0267",
+      "text": "Scientists warned that the coral reef might not survive another decade of warming seas."
+    },
+    {
+      "id": "en-s-0268",
+      "text": "She learned to whistle using a blade of grass, a skill she never quite explained."
+    },
+    {
+      "id": "en-s-0269",
+      "text": "A single loose floorboard announced anyone sneaking downstairs after midnight."
+    },
+    {
+      "id": "en-s-0270",
+      "text": "She kept a spare umbrella at work, having learned that lesson the hard way twice."
+    },
+    {
+      "id": "en-s-0271",
+      "text": "Astronomers detected a faint signal that later turned out to be nothing more than interference."
+    },
+    {
+      "id": "en-s-0272",
+      "text": "Cyclists lined the starting gate, nervously checking tire pressure one last time."
+    },
+    {
+      "id": "en-s-0273",
+      "text": "The library, quiet and warm, felt like the perfect place to wait out the rain."
+    },
+    {
+      "id": "en-s-0274",
+      "text": "The old oak tree in the yard has outlived three generations of the same family."
+    },
+    {
+      "id": "en-s-0275",
+      "text": "We shared a giant plate of dumplings, arguing playfully over the last one."
+    },
+    {
+      "id": "en-s-0276",
+      "text": "Cloud storage made it easy to share files, but the monthly bill kept creeping up."
+    },
+    {
+      "id": "en-s-0277",
+      "text": "The email thread had forty replies before anyone actually answered the question."
+    },
+    {
+      "id": "en-s-0278",
+      "text": "Working from home taught her that discipline matters more than a fancy office chair."
+    },
+    {
+      "id": "en-s-0279",
+      "text": "A sudden gust of wind knocked over three chairs on the patio before anyone could react."
+    },
+    {
+      "id": "en-s-0280",
+      "text": "She trained three new employees this month, on top of her usual project deadlines."
+    },
+    {
+      "id": "en-s-0281",
+      "text": "Her laptop battery barely lasts two hours now, so she carries a charger everywhere."
+    },
+    {
+      "id": "en-s-0282",
+      "text": "The old clock tower still chimes every hour, though nobody remembers who winds it."
+    },
+    {
+      "id": "en-s-0283",
+      "text": "The old windmill still turns, though it hasn't ground flour in over sixty years."
+    },
+    {
+      "id": "en-s-0284",
+      "text": "The photographer waited four hours in the cold just to capture that single perfect shot."
+    },
+    {
+      "id": "en-s-0285",
+      "text": "The choir practiced in the empty church, their voices rising toward the rafters."
+    },
+    {
+      "id": "en-s-0286",
+      "text": "The moving truck arrived two hours late, forcing an impromptu picnic on the lawn."
+    },
+    {
+      "id": "en-s-0287",
+      "text": "Fans camped outside the stadium overnight just to grab tickets for the championship game."
+    },
+    {
+      "id": "en-s-0288",
+      "text": "The subway busker's guitar case filled with coins faster than he could count them."
+    },
+    {
+      "id": "en-s-0289",
+      "text": "We rented bicycles to explore the coastline, stopping whenever the view demanded it."
+    },
+    {
+      "id": "en-s-0290",
+      "text": "Moving day always seems to involve one box that nobody can identify."
+    },
+    {
+      "id": "en-s-0291",
+      "text": "Fireworks lit up the harbor, reflecting off the water in scattered bursts of color."
+    },
+    {
+      "id": "en-s-0292",
+      "text": "The forecast promised sunshine, but by noon a light drizzle had already soaked the streets."
+    },
+    {
+      "id": "en-s-0293",
+      "text": "The gymnast stuck her landing perfectly, earning a score nobody expected from the judges."
+    },
+    {
+      "id": "en-s-0294",
+      "text": "The kindergarten teacher somehow kept twenty five-year-olds calm during the fire drill."
+    },
+    {
+      "id": "en-s-0295",
+      "text": "The company picnic was cancelled because of the storm warning issued that afternoon."
+    },
+    {
+      "id": "en-s-0296",
+      "text": "He taught himself piano using nothing but online videos and a lot of stubborn patience."
+    },
+    {
+      "id": "en-s-0297",
+      "text": "The pool closed early for a private swim lesson, much to the kids' disappointment."
+    },
+    {
+      "id": "en-s-0298",
+      "text": "The night sky over the desert revealed more stars than the city ever let them see."
+    },
+    {
+      "id": "en-s-0299",
+      "text": "Archaeologists uncovered pottery shards that dated back nearly three thousand years."
+    },
+    {
+      "id": "en-s-0300",
+      "text": "The wedding rehearsal ran late because nobody could agree on the seating chart."
+    },
+    {
+      "id": "en-s-0301",
+      "text": "The tide pools revealed tiny crabs scuttling for cover the moment a shadow passed over."
+    },
+    {
+      "id": "en-s-0302",
+      "text": "The school's science fair featured a volcano, a robot, and one suspiciously smoking toaster."
+    },
+    {
+      "id": "en-s-0303",
+      "text": "The office plant survived three moves and one very long vacation without any water."
+    },
+    {
+      "id": "en-s-0304",
+      "text": "She mixed her own paints from crushed pigments, refusing to buy anything premade."
+    },
+    {
+      "id": "en-s-0305",
+      "text": "The old lighthouse now serves as a bed and breakfast for curious travelers."
+    },
+    {
+      "id": "en-s-0306",
+      "text": "Day one of the itinerary included a museum, a market, and an unplanned nap."
+    },
+    {
+      "id": "en-s-0307",
+      "text": "A rusted swing set creaked in the wind of the otherwise empty playground."
+    },
+    {
+      "id": "en-s-0308",
+      "text": "The old train station clock stopped decades ago, though nobody ever bothered fixing it."
+    },
+    {
+      "id": "en-s-0309",
+      "text": "The recipe calls for 2 cups of flour, 1 egg, and a teaspoon of salt."
+    },
+    {
+      "id": "en-s-0310",
+      "text": "The band rehearsed in a leaky garage for months before landing their first real gig."
+    },
+    {
+      "id": "en-s-0311",
+      "text": "The subway announcement crackled so badly that nobody could tell which stop was next."
+    },
+    {
+      "id": "en-s-0312",
+      "text": "The tide chart hung by the docks, faded but still trusted by every local fisherman."
+    },
+    {
+      "id": "en-s-0313",
+      "text": "She organized her bookshelf by color instead of author, much to everyone's confusion."
+    },
+    {
+      "id": "en-s-0314",
+      "text": "Physicists still argue about what happens inside a black hole's event horizon."
+    },
+    {
+      "id": "en-s-0315",
+      "text": "Meet me at the corner of 5th and Main around 6:30 sharp."
+    },
+    {
+      "id": "en-s-0316",
+      "text": "The professor assigned three hundred pages of reading due by Monday morning."
+    },
+    {
+      "id": "en-s-0317",
+      "text": "Flight 227 now boarding at gate 14; please have your passports ready."
+    },
+    {
+      "id": "en-s-0318",
+      "text": "The vaccine took over a decade to develop, built on research that started almost by accident."
+    },
+    {
+      "id": "en-s-0319",
+      "text": "The lifeguard's whistle cut through the noise the moment a wave knocked someone under."
+    },
+    {
+      "id": "en-s-0320",
+      "text": "The museum's newest exhibit features artifacts recovered from a shipwreck off the coast."
+    },
+    {
+      "id": "en-s-0321",
+      "text": "He whittled a tiny boat for his son, who promptly lost it in the creek within an hour."
+    },
+    {
+      "id": "en-s-0322",
+      "text": "Swimming laps before dawn became her way of clearing her head before exams."
+    },
+    {
+      "id": "en-s-0323",
+      "text": "They decorated the house for the holidays the same weekend every single year."
+    },
+    {
+      "id": "en-s-0324",
+      "text": "She wrote her grandmother a letter every week, even after she moved across the country."
+    },
+    {
+      "id": "en-s-0325",
+      "text": "The kitten spent its first week hiding behind the couch, emerging only for food."
+    },
+    {
+      "id": "en-s-0326",
+      "text": "Neighbors gathered on the porch to watch the storm roll in over the hills."
+    },
+    {
+      "id": "en-s-0327",
+      "text": "The coffee shop switched roasters last month, and regulars immediately noticed the difference."
+    },
+    {
+      "id": "en-s-0328",
+      "text": "He muttered, \"not again,\" as the printer jammed for the third time."
+    },
+    {
+      "id": "en-s-0329",
+      "text": "She runs every morning before work, rain or shine, claiming it clears her head."
+    },
+    {
+      "id": "en-s-0330",
+      "text": "The archivist discovered a photograph tucked inside a book returned after forty years."
+    },
+    {
+      "id": "en-s-0331",
+      "text": "The bus driver waited an extra minute, watching her sprint the last block."
+    },
+    {
+      "id": "en-s-0332",
+      "text": "Moss crept slowly across the stone wall, softening its edges over the years."
+    },
+    {
+      "id": "en-s-0333",
+      "text": "The siblings fought constantly as kids, yet now call each other every single Sunday."
+    },
+    {
+      "id": "en-s-0334",
+      "text": "A pod of dolphins trailed the boat for nearly a mile before veering off toward open water."
+    },
+    {
+      "id": "en-s-0335",
+      "text": "Our budget for next year depends entirely on how the board reacts to this proposal."
+    },
+    {
+      "id": "en-s-0336",
+      "text": "A single firework misfired sideways, sending the whole crowd scattering with laughter."
+    },
+    {
+      "id": "en-s-0337",
+      "text": "We celebrated the product launch with pizza, even though half the team was still testing bugs."
+    },
+    {
+      "id": "en-s-0338",
+      "text": "Can you send the file again? The last one wouldn't open on my computer."
+    },
+    {
+      "id": "en-s-0339",
+      "text": "Their tent leaked during the only storm of the entire camping trip."
+    },
+    {
+      "id": "en-s-0340",
+      "text": "She learned to code by rewriting the same tiny game over and over until it worked."
+    },
+    {
+      "id": "en-s-0341",
+      "text": "They recorded the album in an old barn, letting the creaky floorboards add their own texture."
+    },
+    {
+      "id": "en-s-0342",
+      "text": "Neon signs flickered above the crowded street, advertising noodles and karaoke."
+    },
+    {
+      "id": "en-s-0343",
+      "text": "A wave of nostalgia hit her the moment she smelled her childhood home again."
+    },
+    {
+      "id": "en-s-0344",
+      "text": "Long-distance felt impossible until they discovered how much a nightly phone call could fix."
+    },
+    {
+      "id": "en-s-0345",
+      "text": "A power nap turned into a three-hour sleep, and somehow that felt entirely necessary."
+    },
+    {
+      "id": "en-s-0346",
+      "text": "A single loose thread unraveled the whole sweater before she noticed what was happening."
+    },
+    {
+      "id": "en-s-0347",
+      "text": "A message in a bottle washed ashore, its ink faded almost past reading."
+    },
+    {
+      "id": "en-s-0348",
+      "text": "The nurse calmed the frightened child with nothing more than a silly joke and a sticker."
+    },
+    {
+      "id": "en-s-0349",
+      "text": "He learned to juggle using oranges, which explained the bruised fruit bowl afterward."
+    },
+    {
+      "id": "en-s-0350",
+      "text": "The courtroom fell silent the moment the jury foreman stood to read the verdict."
+    },
+    {
+      "id": "en-s-0351",
+      "text": "A single guitar riff from that movie has stuck in my head for over a decade."
+    },
+    {
+      "id": "en-s-0352",
+      "text": "The startup pivoted three times before finally finding a product people wanted to pay for."
+    },
+    {
+      "id": "en-s-0353",
+      "text": "They painted the nursery a pale yellow, unwilling to guess at the baby's future favorite color."
+    },
+    {
+      "id": "en-s-0354",
+      "text": "The retired teacher still corrected grammar out of habit, even in casual text messages."
+    },
+    {
+      "id": "en-s-0355",
+      "text": "Why does the printer always jam right before a deadline?"
+    },
+    {
+      "id": "en-s-0356",
+      "text": "The stray dog followed her home from the market and simply never left again."
+    },
+    {
+      "id": "en-s-0357",
+      "text": "The mural took three weeks to finish, covering an entire wall with a riot of color."
+    },
+    {
+      "id": "en-s-0358",
+      "text": "The concert ended with an encore nobody expected, an old song from their very first album."
+    },
+    {
+      "id": "en-s-0359",
+      "text": "The vending machine ate his last dollar and gave him nothing but static in return."
+    },
+    {
+      "id": "en-s-0360",
+      "text": "He surprised his best friend with tickets to the concert she had mentioned once, months ago."
+    },
+    {
+      "id": "en-s-0361",
+      "text": "Her father walked her down the aisle, blinking back tears he swore weren't there."
+    },
+    {
+      "id": "en-s-0362",
+      "text": "The manuscript, hidden for generations, finally surfaced in a dusty attic trunk."
+    },
+    {
+      "id": "en-s-0363",
+      "text": "He kept a jar of seashells on his desk, each one labeled with the beach where he found it."
+    },
+    {
+      "id": "en-s-0364",
+      "text": "The office was unusually quiet on Monday morning, as if everyone had forgotten how to type."
+    },
+    {
+      "id": "en-s-0365",
+      "text": "Grandpa's stories got taller with each retelling, and nobody ever minded correcting him."
+    },
+    {
+      "id": "en-s-0366",
+      "text": "What time does the last train leave tonight?"
+    },
+    {
+      "id": "en-s-0367",
+      "text": "He restored the vintage car piece by piece, sourcing parts from junkyards across the state."
+    },
+    {
+      "id": "en-s-0368",
+      "text": "She sketched the skyline from memory, filling in details she wasn't entirely sure were accurate."
+    },
+    {
+      "id": "en-s-0369",
+      "text": "The siblings finally reconciled after years of silence, over nothing more than a shared pizza."
+    },
+    {
+      "id": "en-s-0370",
+      "text": "A gentle breeze carried the scent of fresh bread from the bakery next door."
+    },
+    {
+      "id": "en-s-0371",
+      "text": "The receptionist balanced four phone lines while somehow still smiling at everyone."
+    },
+    {
+      "id": "en-s-0372",
+      "text": "He carried an extra pencil to every exam, a habit from a disaster years earlier."
+    },
+    {
+      "id": "en-s-0373",
+      "text": "The orchard smelled of ripe apples long before the pickers even arrived."
+    },
+    {
+      "id": "en-s-0374",
+      "text": "The package should arrive by Thursday, according to the tracking number he shared."
+    },
+    {
+      "id": "en-s-0375",
+      "text": "The product finally shipped after three delays, arriving dented but functional."
+    },
+    {
+      "id": "en-s-0376",
+      "text": "Quick reminder that the office closes early on Fridays this summer."
+    },
+    {
+      "id": "en-s-0377",
+      "text": "Relief washed over him the moment the test results finally came back clear."
+    },
+    {
+      "id": "en-s-0378",
+      "text": "After weeks of drought, the first rainfall in months felt like a small miracle."
+    },
+    {
+      "id": "en-s-0379",
+      "text": "Her playlist for long drives never seems to include a single song from this decade."
+    },
+    {
+      "id": "en-s-0380",
+      "text": "The climbers reached the summit just as the clouds parted for a brief clear view."
+    },
+    {
+      "id": "en-s-0381",
+      "text": "The heat wave broke records this July, forcing schools to cancel outdoor activities."
+    },
+    {
+      "id": "en-s-0382",
+      "text": "The first snow of the season always makes the whole town feel a little quieter."
+    },
+    {
+      "id": "en-s-0383",
+      "text": "Their book club argued more about snacks than about the actual chapters, honestly."
+    },
+    {
+      "id": "en-s-0384",
+      "text": "The waiter recommended the special, though he admitted he hadn't tried it himself."
+    },
+    {
+      "id": "en-s-0385",
+      "text": "The road trip playlist ran out somewhere around the third state, so we sang without music."
+    },
+    {
+      "id": "en-s-0386",
+      "text": "The old radio still picks up one station, playing nothing but static and jazz."
+    },
+    {
+      "id": "en-s-0387",
+      "text": "He livestreamed the entire event, apologizing constantly for the shaky camera work."
+    },
+    {
+      "id": "en-s-0388",
+      "text": "A crooked picture frame in the hallway had bothered him for exactly eleven years."
+    },
+    {
+      "id": "en-s-0389",
+      "text": "The dog barked at its own reflection for a solid five minutes before losing interest."
+    },
+    {
+      "id": "en-s-0390",
+      "text": "Fishing at dawn meant silence broken only by the occasional splash of a rising trout."
+    },
+    {
+      "id": "en-s-0391",
+      "text": "His memo was three pages long when it could have easily been three sentences."
+    },
+    {
+      "id": "en-s-0392",
+      "text": "He memorized bus routes the way other people memorize song lyrics."
+    },
+    {
+      "id": "en-s-0393",
+      "text": "The chemistry teacher's favorite trick involves turning a clear liquid bright blue instantly."
+    },
+    {
+      "id": "en-s-0394",
+      "text": "A misplaced decimal point turned a small budget into a genuine financial crisis."
+    },
+    {
+      "id": "en-s-0395",
+      "text": "We packed light for the trip, carrying only what fit into a single backpack each."
+    },
+    {
+      "id": "en-s-0396",
+      "text": "The lab's new microscope revealed details in the sample nobody had noticed before."
+    },
+    {
+      "id": "en-s-0397",
+      "text": "He carried his father's pocket watch, though it hadn't kept accurate time in years."
+    },
+    {
+      "id": "en-s-0398",
+      "text": "He whistled the same three notes every morning, though nobody knew where the tune came from."
+    },
+    {
+      "id": "en-s-0399",
+      "text": "A stray balloon drifted over the stadium, distracting half the crowd from the game."
+    },
+    {
+      "id": "en-s-0400",
+      "text": "Prices rose nearly 12% last year, forcing many families to rethink their budgets."
+    },
+    {
+      "id": "en-s-0401",
+      "text": "Stargazers gathered on the hilltop, hoping the clouds would clear before midnight."
+    },
+    {
+      "id": "en-s-0402",
+      "text": "Our itinerary fell apart on day two, and honestly, that turned out to be the best part."
+    },
+    {
+      "id": "en-s-0403",
+      "text": "The old ferry horn still sounds twice before docking, a habit nobody thought to change."
+    },
+    {
+      "id": "en-s-0404",
+      "text": "Despite the odds, the underdog team pulled off a stunning victory in overtime."
+    },
+    {
+      "id": "en-s-0405",
+      "text": "The bakery's cinnamon rolls sell out so fast that regulars call ahead to reserve one."
+    },
+    {
+      "id": "en-s-0406",
+      "text": "We watched the lightning flicker across the horizon while thunder rumbled somewhere far away."
+    },
+    {
+      "id": "en-s-0407",
+      "text": "She kept every birthday card her husband ever gave her, tucked inside an old shoebox."
+    },
+    {
+      "id": "en-s-0408",
+      "text": "The corner store still sells penny candy, though the prices have obviously changed since."
+    },
+    {
+      "id": "en-s-0409",
+      "text": "Room service arrives between 7 and 9 a.m., depending on how busy the hotel is."
+    },
+    {
+      "id": "en-s-0410",
+      "text": "The heat wave broke every record the city had kept for the past century."
+    },
+    {
+      "id": "en-s-0411",
+      "text": "The doctor recommended more sleep, less coffee, and considerably fewer late-night snacks."
+    },
+    {
+      "id": "en-s-0412",
+      "text": "We tried the new ramen place, and the broth alone was worth the long wait."
+    },
+    {
+      "id": "en-s-0413",
+      "text": "Turn left at the second light, then it's the third house on the right."
+    },
+    {
+      "id": "en-s-0414",
+      "text": "The new hire asked so many good questions that even senior engineers took notes."
+    },
+    {
+      "id": "en-s-0415",
+      "text": "Thick roots had cracked the sidewalk, evidence of the tree's stubborn will to grow."
+    },
+    {
+      "id": "en-s-0416",
+      "text": "The museum's dinosaur exhibit remains, to this day, the most popular field trip destination."
+    },
+    {
+      "id": "en-s-0417",
+      "text": "The block party shut down the street for an afternoon of grilled corn and loud music."
+    },
+    {
+      "id": "en-s-0418",
+      "text": "The professor's lecture ran long, but nobody dared check the clock too obviously."
+    },
+    {
+      "id": "en-s-0419",
+      "text": "The new update finally fixed the bug that had been annoying users for months."
+    },
+    {
+      "id": "en-s-0420",
+      "text": "Customs took forever, yet the moment we stepped outside, the humid air felt like home."
+    },
+    {
+      "id": "en-s-0421",
+      "text": "We've been friends since 2009, back when neither of us owned a smartphone."
+    },
+    {
+      "id": "en-s-0422",
+      "text": "Our team lost by a single point, a heartbreak nobody in the locker room could shake off."
+    },
+    {
+      "id": "en-s-0423",
+      "text": "The thermostat read 68 degrees, yet somehow the whole house felt freezing."
+    },
+    {
+      "id": "en-s-0424",
+      "text": "The choir director hummed the opening note until everyone finally found it together."
+    },
+    {
+      "id": "en-s-0425",
+      "text": "Their startup raised enough funding to hire five more engineers by the end of the year."
+    },
+    {
+      "id": "en-s-0426",
+      "text": "Where did you park the car this time?"
+    },
+    {
+      "id": "en-s-0427",
+      "text": "The corner cafe roasts its own beans, filling the whole block with the smell of coffee."
+    },
+    {
+      "id": "en-s-0428",
+      "text": "A crumpled receipt in her coat pocket revealed exactly how long ago winter had begun."
+    },
+    {
+      "id": "en-s-0429",
+      "text": "Insomnia had become such a habit that he almost distrusted the nights he slept well."
+    },
+    {
+      "id": "en-s-0430",
+      "text": "The clinic extended its hours after the flu season hit harder than anyone predicted."
+    },
+    {
+      "id": "en-s-0431",
+      "text": "Volunteers handed out blankets and soup at the shelter well past midnight."
+    },
+    {
+      "id": "en-s-0432",
+      "text": "He tore his ligament during practice, ending a season that had started with so much promise."
+    },
+    {
+      "id": "en-s-0433",
+      "text": "A single loose shingle led to a leak that took three contractors to finally trace."
+    },
+    {
+      "id": "en-s-0434",
+      "text": "Life in the countryside moves slower, measured more by seasons than by clocks."
+    },
+    {
+      "id": "en-s-0435",
+      "text": "Farmers arrived before dawn to set up stalls overflowing with peppers and squash."
+    },
+    {
+      "id": "en-s-0436",
+      "text": "A single typo in the headline sparked an entire afternoon of online jokes."
+    },
+    {
+      "id": "en-s-0437",
+      "text": "Commentators argued for an hour about a call the referee had already reversed."
+    },
+    {
+      "id": "en-s-0438",
+      "text": "Did anyone actually read the instructions before starting?"
+    },
+    {
+      "id": "en-s-0439",
+      "text": "Their friendship survived three moves, two breakups, and one very awkward wedding toast."
+    },
+    {
+      "id": "en-s-0440",
+      "text": "Careful, the floor is still wet from mopping!"
+    },
+    {
+      "id": "en-s-0441",
+      "text": "The horse refused to cross the bridge, no matter how gently she coaxed it forward."
+    },
+    {
+      "id": "en-s-0442",
+      "text": "It's not that I don't trust you; I just like double-checking everything myself."
+    },
+    {
+      "id": "en-s-0443",
+      "text": "The night shift nurse memorized every patient's favorite song without ever being asked."
+    },
+    {
+      "id": "en-s-0444",
+      "text": "Can you believe it's already July?"
+    },
+    {
+      "id": "en-s-0445",
+      "text": "Volunteers cleaned up the beach, collecting nearly two hundred pounds of trash in a single morning."
+    },
+    {
+      "id": "en-s-0446",
+      "text": "Her handwriting turned illegible under deadline pressure, even to herself."
+    },
+    {
+      "id": "en-s-0447",
+      "text": "She practiced her speech in the mirror until the nervous shake left her voice."
+    },
+    {
+      "id": "en-s-0448",
+      "text": "He fixed the leaking faucet with a wrench, some tape, and a great deal of muttering."
+    },
+    {
+      "id": "en-s-0449",
+      "text": "He collects postcards from every city he visits, even the ones without much to see."
+    },
+    {
+      "id": "en-s-0450",
+      "text": "After the layoffs, the remaining staff had to divide the workload among fewer people."
+    },
+    {
+      "id": "en-s-0451",
+      "text": "Her grandfather's toolbox held nails sorted by size in tins that once held tea."
+    },
+    {
+      "id": "en-s-0452",
+      "text": "A single crow perched on the scarecrow, entirely unbothered by its purpose."
+    },
+    {
+      "id": "en-s-0453",
+      "text": "Her final exam question asked her to define a word she'd never actually heard before."
+    },
+    {
+      "id": "en-s-0454",
+      "text": "The old photograph brought back memories she hadn't thought about in years."
+    },
+    {
+      "id": "en-s-0455",
+      "text": "Her passport had barely a blank page left after five years of constant travel."
+    },
+    {
+      "id": "en-s-0456",
+      "text": "Apartment hunting in the city meant touring five units before lunch and still finding nothing."
+    },
+    {
+      "id": "en-s-0457",
+      "text": "The chess club meets in the library basement, arguing quietly over every move."
+    },
+    {
+      "id": "en-s-0458",
+      "text": "A balanced diet, she explained, doesn't mean giving up chocolate entirely."
+    },
+    {
+      "id": "en-s-0459",
+      "text": "The tide pulled back at dawn, revealing tide pools full of tiny scuttling crabs."
+    },
+    {
+      "id": "en-s-0460",
+      "text": "Snow days meant hot chocolate, borrowed mittens, and homework nobody actually finished."
+    },
+    {
+      "id": "en-s-0461",
+      "text": "Her grandmother's quilt has patches from every dress she wore as a teenager."
+    },
+    {
+      "id": "en-s-0462",
+      "text": "The bakery's line stretched around the block for the grand opening."
+    },
+    {
+      "id": "en-s-0463",
+      "text": "The app crashed twice during the demo, which made the whole team visibly nervous."
+    },
+    {
+      "id": "en-s-0464",
+      "text": "Her suitcase rattled with souvenirs from a trip that had barely lasted a week."
+    },
+    {
+      "id": "en-s-0465",
+      "text": "Breaking news interrupted the broadcast just as the game reached its final minutes."
+    },
+    {
+      "id": "en-s-0466",
+      "text": "She texted her sister a single word, \"help,\" and somehow that explained everything."
+    },
+    {
+      "id": "en-s-0467",
+      "text": "The treaty ended decades of conflict, though tensions simmered for years afterward."
+    },
+    {
+      "id": "en-s-0468",
+      "text": "The rival teams have played each other every autumn for nearly fifty years straight."
+    },
+    {
+      "id": "en-s-0469",
+      "text": "She reads the same worn paperback every winter, dog-eared pages and all."
+    },
+    {
+      "id": "en-s-0470",
+      "text": "She laughed so hard she nearly dropped her phone into the pool."
+    },
+    {
+      "id": "en-s-0471",
+      "text": "They saved for five years before finally putting a down payment on their first house."
+    },
+    {
+      "id": "en-s-0472",
+      "text": "Marine biologists tagged the whale to track its migration across two oceans."
+    },
+    {
+      "id": "en-s-0473",
+      "text": "The night market vendor haggled cheerfully, though he never actually lowered his price."
+    },
+    {
+      "id": "en-s-0474",
+      "text": "Her manuscript sat in a drawer for years before she finally worked up the nerve to submit it."
+    },
+    {
+      "id": "en-s-0475",
+      "text": "He counted the stairs out of habit, even though he'd climbed them a thousand times."
+    },
+    {
+      "id": "en-s-0476",
+      "text": "He kept refreshing his inbox, hoping the client would finally approve the design."
+    },
+    {
+      "id": "en-s-0477",
+      "text": "The meeting was rescheduled to undefined, which gave the whole team more time to prepare."
+    },
+    {
+      "id": "en-s-0478",
+      "text": "He negotiated a better salary after showing his boss the results from the last three projects."
+    },
+    {
+      "id": "en-s-0479",
+      "text": "Is this seat taken, or can I sit here?"
+    },
+    {
+      "id": "en-s-0480",
+      "text": "Remember to pick up milk, and please don't forget the eggs this time."
+    },
+    {
+      "id": "en-s-0481",
+      "text": "A late frost killed half the orchard's blossoms, cutting the harvest short that autumn."
+    },
+    {
+      "id": "en-s-0482",
+      "text": "A single loose page fell from the ancient book, revealing a pressed flower inside."
+    },
+    {
+      "id": "en-s-0483",
+      "text": "The charity drive collected more coats than the shelter had space to store."
+    },
+    {
+      "id": "en-s-0484",
+      "text": "Rainbows appeared twice that week, both times right after a short afternoon shower."
+    },
+    {
+      "id": "en-s-0485",
+      "text": "Room 204 is booked until 3:45, so we'll have to meet somewhere else."
+    },
+    {
+      "id": "en-s-0486",
+      "text": "Please remember to water the plants while I'm away next week."
+    },
+    {
+      "id": "en-s-0487",
+      "text": "The rain tapped steadily against the window, blurring the streetlights into soft orange smears."
+    },
+    {
+      "id": "en-s-0488",
+      "text": "He finally paid off his student loans after a decade of careful, disciplined saving."
+    },
+    {
+      "id": "en-s-0489",
+      "text": "Wildflowers covered the hillside in a burst of color that lasted only a few weeks."
+    },
+    {
+      "id": "en-s-0490",
+      "text": "The river carved through solid rock over thousands of years, leaving behind a narrow canyon."
+    },
+    {
+      "id": "en-s-0491",
+      "text": "The novel's twist ending left readers arguing online for weeks afterward."
+    },
+    {
+      "id": "en-s-0492",
+      "text": "Old friends reunited at the class reunion, barely recognizing each other at first."
+    },
+    {
+      "id": "en-s-0493",
+      "text": "The lighthouse beam swept across the harbor every eight seconds, steady as a heartbeat."
+    },
+    {
+      "id": "en-s-0494",
+      "text": "The old engine sputtered to life only after three attempts and a firm kick to the fender."
+    },
+    {
+      "id": "en-s-0495",
+      "text": "The hikers reached the overlook just as the fog began to lift from the valley below."
+    },
+    {
+      "id": "en-s-0496",
+      "text": "\"Are you coming?\" she asked, already halfway out the door."
+    },
+    {
+      "id": "en-s-0497",
+      "text": "The puzzle took the whole family three evenings, mostly because someone hid a piece."
+    },
+    {
+      "id": "en-s-0498",
+      "text": "By late afternoon the humidity had become almost unbearable, sticking shirts to skin."
+    },
+    {
+      "id": "en-s-0499",
+      "text": "The startup burned through its funding faster than the founders had ever imagined."
+    },
+    {
+      "id": "en-s-0500",
+      "text": "Autumn leaves piled up faster than anyone could rake them away."
+    },
+    {
+      "id": "en-s-0501",
+      "text": "The old schoolhouse now serves as a small museum, its desks still bolted to the floor."
+    },
+    {
+      "id": "en-s-0502",
+      "text": "Snow began falling quietly around midnight, blanketing the driveway by morning."
+    }
+  ]
+}

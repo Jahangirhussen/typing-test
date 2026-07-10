@@ -1,0 +1,549 @@
+{
+  "quotes": [
+    {
+      "id": "en-q-0001",
+      "text": "A journey of a thousand miles begins with a single step.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0002",
+      "text": "Actions speak louder than words.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0003",
+      "text": "The early bird catches the worm.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0004",
+      "text": "Don't count your chickens before they hatch.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0005",
+      "text": "A stitch in time saves nine.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0006",
+      "text": "Practice makes perfect.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0007",
+      "text": "Where there's a will, there's a way.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0008",
+      "text": "Better late than never.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0009",
+      "text": "Every cloud has a silver lining.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0010",
+      "text": "Honesty is the best policy.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0011",
+      "text": "Do not put off until tomorrow what you can do today.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0012",
+      "text": "A picture is worth a thousand words.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0013",
+      "text": "When it rains, it pours.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0014",
+      "text": "The pen is mightier than the sword.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0015",
+      "text": "Rome wasn't built in a day.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0016",
+      "text": "Out of sight, out of mind.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0017",
+      "text": "You can't judge a book by its cover.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0018",
+      "text": "Absence makes the heart grow fonder.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0019",
+      "text": "Two heads are better than one.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0020",
+      "text": "Slow and steady wins the race.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0021",
+      "text": "A penny saved is a penny earned.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0022",
+      "text": "Birds of a feather flock together.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0023",
+      "text": "Don't judge a fish by its ability to climb a tree.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0024",
+      "text": "The grass is always greener on the other side.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0025",
+      "text": "Knowledge is power.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0026",
+      "text": "Laughter is the best medicine.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0027",
+      "text": "Necessity is the mother of invention.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0028",
+      "text": "No pain, no gain.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0029",
+      "text": "Practice what you preach.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0030",
+      "text": "The squeaky wheel gets the grease.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0031",
+      "text": "When one door closes, another opens.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0032",
+      "text": "A friend in need is a friend indeed.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0033",
+      "text": "Fortune favors the bold.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0034",
+      "text": "Look before you leap.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0035",
+      "text": "Many hands make light work.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0036",
+      "text": "Once bitten, twice shy.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0037",
+      "text": "The apple doesn't fall far from the tree.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0038",
+      "text": "Time heals all wounds.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0039",
+      "text": "Where there is smoke, there is fire.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0040",
+      "text": "You reap what you sow.",
+      "author": "Proverb"
+    },
+    {
+      "id": "en-q-0041",
+      "text": "Small steps taken daily lead to distances no leap could ever cover.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0042",
+      "text": "Discipline is simply choosing between what you want now and what you want most.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0043",
+      "text": "The quiet hours before dawn hold more promise than any deadline.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0044",
+      "text": "Progress is rarely loud; it usually sounds like one more try.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0045",
+      "text": "Patience is not waiting quietly, it is working steadily while you wait.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0046",
+      "text": "A skill practiced badly a hundred times becomes a skill.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0047",
+      "text": "Growth hides inside the tasks we'd rather avoid.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0048",
+      "text": "Every expert was once a beginner who refused to quit too early.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0049",
+      "text": "Consistency turns ordinary effort into extraordinary results.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0050",
+      "text": "Confidence is built one kept promise to yourself at a time.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0051",
+      "text": "The obstacle you keep avoiding is usually the one worth facing.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0052",
+      "text": "Small habits, repeated without excuse, become the architecture of a life.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0053",
+      "text": "Comfort and growth rarely occupy the same room.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0054",
+      "text": "What feels impossible today is often just unfamiliar, not unreachable.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0055",
+      "text": "A calm mind sees solutions that a rushed one overlooks entirely.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0056",
+      "text": "The best time to start was yesterday; the next best time is now.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0057",
+      "text": "Effort compounds quietly long before results become visible.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0058",
+      "text": "Courage is rarely fearless; it is simply willing to act despite the fear.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0059",
+      "text": "A goal without a plan is only a wish wearing a disguise.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0060",
+      "text": "Every mistake is a lesson that refused to be ignored.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0061",
+      "text": "Focus is choosing what to ignore so something else can matter more.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0062",
+      "text": "The strongest habits are built on the smallest, most repeatable actions.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0063",
+      "text": "Doubt kills more dreams than failure ever will.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0064",
+      "text": "Motivation gets you started; discipline is what keeps you moving.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0065",
+      "text": "A single honest effort today is worth a hundred perfect plans tomorrow.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0066",
+      "text": "Resilience is not the absence of struggle, but the refusal to stay down.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0067",
+      "text": "Clarity comes from action, not from endless thinking.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0068",
+      "text": "The path forward is rarely straight, but it is almost always worth walking.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0069",
+      "text": "Success is often just persistence wearing a more flattering name.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0070",
+      "text": "What you repeat, you become; choose your repetitions carefully.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0071",
+      "text": "A steady pace outlasts a burst of speed every single time.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0072",
+      "text": "The version of you a year from now is built by what you do today.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0073",
+      "text": "Effort is the one variable you always control, regardless of circumstance.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0074",
+      "text": "Great work rarely announces itself; it simply gets finished, quietly.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0075",
+      "text": "Every finished page began as a blank one someone was brave enough to face.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0076",
+      "text": "The distance between trying and mastering is simply time and patience.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0077",
+      "text": "Discomfort is often just growth, poorly disguised.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0078",
+      "text": "A calm heart makes better decisions than an anxious one ever could.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0079",
+      "text": "Real change happens in the boring middle, not the exciting start.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0080",
+      "text": "You don't need to see the whole staircase to take the first step.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0081",
+      "text": "The work you do when no one is watching shapes who you become.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0082",
+      "text": "Small wins, stacked patiently, eventually look like a completely different life.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0083",
+      "text": "Not every day will feel like progress, but every honest effort still counts.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0084",
+      "text": "Persistence turns average ability into remarkable achievement.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0085",
+      "text": "The best lessons rarely come wrapped in comfort.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0086",
+      "text": "A goal repeated daily becomes a habit; a habit becomes an identity.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0087",
+      "text": "Curiosity keeps the mind young long after the body has slowed.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0088",
+      "text": "Kindness costs nothing and often changes everything.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0089",
+      "text": "Gratitude turns what we have into more than enough.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0090",
+      "text": "The quietest people often carry the loudest ideas.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0091",
+      "text": "A closed door simply means your path was meant to look different.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0092",
+      "text": "Learning never subtracts from you; it only ever adds.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0093",
+      "text": "Time spent improving yourself is never truly wasted.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0094",
+      "text": "Every sunrise offers a fresh page nobody has written on yet.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0095",
+      "text": "Listening well is a rarer gift than speaking well.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0096",
+      "text": "A steady hand is built through a hundred shaky attempts.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0097",
+      "text": "The map matters less than the willingness to keep walking.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0098",
+      "text": "Ideas are worth little until someone is stubborn enough to finish them.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0099",
+      "text": "Character shows most clearly in the choices no one else ever sees.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0100",
+      "text": "The right habits make discipline feel less like a fight and more like a rhythm.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0101",
+      "text": "A problem named clearly is already halfway to being solved.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0102",
+      "text": "Preparation is simply confidence built ahead of time.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0103",
+      "text": "The best teachers are often our own past mistakes.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0104",
+      "text": "Every long road becomes shorter once you stop staring at the end of it.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0105",
+      "text": "A little bravery today saves a lot of regret tomorrow.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0106",
+      "text": "Growth asks for patience far more often than it asks for talent.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0107",
+      "text": "Small, honest effort beats big, empty promises every time.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0108",
+      "text": "The best ideas rarely arrive fully formed; they arrive rough and get refined.",
+      "author": "Unknown"
+    },
+    {
+      "id": "en-q-0109",
+      "text": "Choosing to begin is usually the hardest and most important part.",
+      "author": "Unknown"
+    }
+  ]
+}
