@@ -3,34 +3,255 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Typing Test - English & Bangla</title>
+<title>TypingTest — Free English &amp; Bangla Typing Speed Test</title>
+<meta name="description" content="Free online typing speed test for English and Bangla. Practice words, sentences, and paragraphs across 5 difficulty levels, track your WPM/CPM/accuracy, and earn a certificate.">
 <link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
 </head>
 <body>
-<header>
-  <a class="logo" href="index.html">⌨ TypingTest</a>
-  <nav>
-    <a href="english/index.html">English</a>
-    <a href="bangla/index.html">বাংলা</a>
-    <a href="stats/index.html">Stats</a>
-    <button id="theme-toggle" title="Switch theme">🎨</button>
-    <button id="sound-toggle" title="Toggle sound">🔊</button>
-  </nav>
-</header>
-<main>
-  <h1>Test Your Typing Speed</h1>
-  <div class="home-grid">
-    <a class="home-card" href="english/index.html">
-      <span class="big">EN</span>
-      English Typing Test
-    </a>
-    <a class="home-card" href="bangla/index.html">
-      <span class="big">বাং</span>
-      বাংলা টাইপিং টেস্ট
-    </a>
-  </div>
+<div class="announcement-bar" id="announcement-bar">🎉 New: 5000+ word English dataset &amp; Bangla paragraph practice now live. <a href="tips/index.html">See what's new →</a><button class="announcement-close" id="announcement-close" aria-label="Dismiss">✕</button></div>
+<div id="site-header"></div>
+
+<main class="page-main">
+
+  <section class="hero">
+    <h1>Master Your Typing Speed</h1>
+    <p class="hero-sub">Free English &amp; Bangla typing test with real-word datasets, 5 difficulty levels, and detailed progress tracking.</p>
+    <div class="hero-cta">
+      <a class="primary-btn" href="english/index.html">Start English Test</a>
+      <a class="primary-btn alt" href="bangla/index.html">বাংলা টেস্ট শুরু করুন</a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="quick-stats">
+      <div class="qstat"><span class="counter" data-target="1000000">0</span>+<div class="label">Tests Typed</div></div>
+      <div class="qstat"><span class="counter" data-target="25000">0</span>+<div class="label">Users</div></div>
+      <div class="qstat"><span class="counter" data-target="99">0</span>%<div class="label">Accuracy Focus</div></div>
+      <div class="qstat"><span class="counter" data-target="100">0</span>+<div class="label">Lessons &amp; Guides</div></div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Quick Start</h2>
+    <div class="card-grid grid-4">
+      <a class="feature-card" href="english/index.html">⌨<h3>English Typing Test</h3><p>Words, sentences, paragraphs</p></a>
+      <a class="feature-card" href="bangla/index.html">অ<h3>Bangla Typing Test</h3><p>শব্দ, বাক্য, অনুচ্ছেদ</p></a>
+      <a class="feature-card" href="practice/index.html#random">🎲<h3>Random Practice</h3><p>Auto-randomized content every test</p></a>
+      <a class="feature-card" href="practice/index.html#custom">📝<h3>Custom Practice</h3><p>Paste your own text (coming soon)</p></a>
+      <a class="feature-card" href="practice/index.html">🔥<h3>Daily Challenge</h3><p>A fresh test every day</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Popular Typing Tests</h2>
+    <div class="card-grid grid-4">
+      <a class="feature-card" href="english/index.html">⏱<h3>15 Seconds</h3><p>Quick speed burst</p></a>
+      <a class="feature-card" href="english/index.html">⏱<h3>30 Seconds</h3><p>Standard quick test</p></a>
+      <a class="feature-card" href="english/index.html">⏱<h3>60 Seconds</h3><p>The classic 1-minute test</p></a>
+      <a class="feature-card" href="english/index.html">⏱<h3>2 Minutes</h3><p>Extended endurance test</p></a>
+      <a class="feature-card" href="english/index.html">⏱<h3>5 Minutes</h3><p>Sustained accuracy test</p></a>
+      <a class="feature-card" href="english/index.html">⏱<h3>10 Minutes</h3><p>Full stamina test</p></a>
+      <a class="feature-card" href="english/index.html">⏱<h3>Custom Test</h3><p>Choose your own duration</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Practice Categories</h2>
+    <div class="card-grid grid-4">
+      <a class="feature-card" href="english/index.html">🇬🇧<h3>English Practice</h3><p>All English modes</p></a>
+      <a class="feature-card" href="bangla/index.html">🇧🇩<h3>Bangla Practice</h3><p>All Bangla modes</p></a>
+      <a class="feature-card" href="english/index.html">🔤<h3>Words</h3><p>Top 200/1000/5000</p></a>
+      <a class="feature-card" href="english/index.html">📄<h3>Sentences</h3><p>500+ varied sentences</p></a>
+      <a class="feature-card" href="english/index.html">📃<h3>Paragraphs</h3><p>Topic-based paragraphs</p></a>
+      <a class="feature-card" href="english/index.html">💬<h3>Quotes</h3><p>Short wisdom lines</p></a>
+      <a class="feature-card" href="english/index.html">💻<h3>Programming</h3><p>Code-adjacent prose</p></a>
+      <a class="feature-card" href="english/index.html">🎓<h3>IELTS</h3><p>Exam-style paragraphs</p></a>
+      <a class="feature-card" href="english/index.html">📚<h3>Academic</h3><p>Scholarly register</p></a>
+      <a class="feature-card" href="english/index.html">💼<h3>Business</h3><p>Professional topics</p></a>
+      <a class="feature-card" href="english/index.html">🖥<h3>Technology</h3><p>Tech &amp; AI topics</p></a>
+      <a class="feature-card" href="bangla/index.html">📰<h3>News</h3><p>Bangla news register</p></a>
+      <a class="feature-card" href="bangla/index.html">✍<h3>Literature</h3><p>Original Bangla prose</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Difficulty Levels</h2>
+    <div class="card-grid grid-4">
+      <a class="feature-card" href="practice/index.html#beginner">🌱<h3>Beginner</h3><p>Short, simple words</p></a>
+      <a class="feature-card" href="practice/index.html#easy">🙂<h3>Easy</h3><p>Common everyday words</p></a>
+      <a class="feature-card" href="practice/index.html#medium">⚖️<h3>Medium</h3><p>Balanced mix</p></a>
+      <a class="feature-card" href="practice/index.html#hard">🔥<h3>Hard</h3><p>Longer, complex words</p></a>
+      <a class="feature-card" href="practice/index.html#expert">🏆<h3>Expert</h3><p>Advanced vocabulary</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Keyboard Layouts</h2>
+    <div class="card-grid grid-4">
+      <div class="feature-card">⌨<h3>QWERTY</h3><p>Standard English layout</p></div>
+      <a class="feature-card" href="lessons/index.html#avro">🅰<h3>Avro</h3><p>Phonetic Bangla input</p></a>
+      <a class="feature-card" href="lessons/index.html#bijoy">🅱<h3>Bijoy</h3><p>Traditional Bangla layout</p></a>
+      <a class="feature-card" href="lessons/index.html#unicode">🔣<h3>Unicode</h3><p>Cross-platform Bangla script</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Why Choose Us</h2>
+    <div class="card-grid grid-4">
+      <div class="feature-card">⚡<h3>Fast</h3><p>Instant, lightweight pages</p></div>
+      <div class="feature-card">🎯<h3>Accurate</h3><p>Precise WPM/CPM/accuracy math</p></div>
+      <div class="feature-card">📱<h3>Mobile Friendly</h3><p>Fully responsive design</p></div>
+      <div class="feature-card">🔓<h3>No Login Required</h3><p>Start typing instantly</p></div>
+      <div class="feature-card">💸<h3>Free Forever</h3><p>No paywalls, no ads clutter</p></div>
+      <div class="feature-card">💾<h3>LocalStorage Progress</h3><p>Your data stays on your device</p></div>
+      <div class="feature-card">🏅<h3>Certificate Support</h3><p>Downloadable achievement PDF</p></div>
+      <div class="feature-card">📊<h3>Live Statistics</h3><p>Real-time WPM/CPM/accuracy</p></div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Your Statistics</h2>
+    <div class="stats-grid" id="home-stats"></div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Premium Features</h2>
+    <div class="card-grid grid-4">
+      <div class="feature-card">⚡<h3>Live WPM</h3><p>Updates as you type</p></div>
+      <div class="feature-card">🔢<h3>Live CPM</h3><p>Characters-per-minute tracking</p></div>
+      <div class="feature-card">🎯<h3>Live Accuracy</h3><p>Real-time correctness %</p></div>
+      <div class="feature-card">📊<h3>Progress Tracking</h3><p>History, streaks, export to CSV/JSON</p></div>
+      <div class="feature-card">📈<h3>Typing Graphs</h3><p>WPM trend sparkline</p></div>
+      <div class="feature-card">🕘<h3>History</h3><p>Every past test saved locally</p></div>
+      <div class="feature-card">🖍<h3>Error Highlight</h3><p>Wrong characters marked instantly</p></div>
+      <div class="feature-card">🏅<h3>Certificate</h3><p>Downloadable PDF on completion</p></div>
+      <div class="feature-card">🔊<h3>Sound Effects</h3><p>Key, error &amp; finish sounds</p></div>
+      <div class="feature-card">🎨<h3>5 Themes</h3><p>Dark, light, blue, green, high-contrast</p></div>
+      <div class="feature-card">📡<h3>Offline Support</h3><p>Works once assets are cached</p></div>
+      <div class="feature-card">🔓<h3>No Login</h3><p>Everything stored in your browser</p></div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>How It Works</h2>
+    <ol class="how-it-works">
+      <li><strong>Choose</strong> a language, mode, difficulty, and duration.</li>
+      <li><strong>Type</strong> the displayed text as fast and accurately as you can.</li>
+      <li><strong>Review</strong> your WPM, CPM, accuracy, and error breakdown.</li>
+      <li><strong>Track</strong> your progress over time on the Stats page.</li>
+    </ol>
+  </section>
+
+  <section class="section reveal">
+    <h2>Typing Lessons</h2>
+    <div class="card-grid">
+      <a class="feature-card" href="lessons/index.html#fingers"><h3>Finger Placement</h3><p>Learn proper hand positioning</p></a>
+      <a class="feature-card" href="lessons/index.html#avro"><h3>Avro Guide</h3><p>Bangla typing with Avro phonetic</p></a>
+      <a class="feature-card" href="lessons/index.html#bijoy"><h3>Bijoy Guide</h3><p>Classic Bangla layout</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Typing Tips</h2>
+    <div class="card-grid">
+      <a class="feature-card" href="tips/index.html"><h3>Improve Accuracy First</h3><p>Speed follows accuracy, not the other way around</p></a>
+      <a class="feature-card" href="tips/index.html"><h3>Don't Look at the Keyboard</h3><p>Touch-typing builds long-term speed</p></a>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Latest Articles</h2>
+    <div class="card-grid" id="latest-articles"></div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Certificate</h2>
+    <div class="cert-preview">
+      <div class="cert-card">
+        <h3>🏅 Certificate of Achievement</h3>
+        <p>Complete any test and download a personalized PDF certificate showing your WPM, accuracy, and date.</p>
+        <a class="primary-btn" href="certificate/index.html">Preview Certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>What Users Say</h2>
+    <div class="card-grid">
+      <div class="feature-card testimonial">"Clean interface, and the Bangla test actually feels natural to type." <div class="label">— Rafiul, Dhaka</div></div>
+      <div class="feature-card testimonial">"Finally a typing site with real IELTS-style paragraphs, not gibberish." <div class="label">— Ayesha, Chittagong</div></div>
+      <div class="feature-card testimonial">"The progress graph keeps me coming back daily." <div class="label">— Tanvir, Sylhet</div></div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <details><summary>Is TypingTest free to use?</summary><p>Yes, completely free with no sign-up required.</p></details>
+      <details><summary>Is my data saved anywhere?</summary><p>All history and stats are stored locally in your browser via localStorage — nothing is sent to a server.</p></details>
+      <details><summary>Does it support Bangla typing?</summary><p>Yes — full Bangla word, sentence, and paragraph practice with Unicode text.</p></details>
+    </div>
+  </section>
+
+
 </main>
-<footer>&copy; 2026 TypingTest</footer>
+
+<div id="site-footer"></div>
+
 <script src="js/app.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/layout.js" data-base="./"></script>
+<script>
+  const history = getHistory();
+  const bestEn = getBest("english");
+  const bestBn = getBest("bangla");
+  const cards = [
+    ["Total Tests", history.length],
+    ["Best WPM (EN)", bestEn ? bestEn.wpm : "-"],
+    ["Best WPM (BN)", bestBn ? bestBn.wpm : "-"],
+  ];
+  document.getElementById("home-stats").innerHTML = cards.map(([label, value]) =>
+    `<div class="card"><div class="value">${value}</div><div class="label">${label}</div></div>`
+  ).join("");
+
+  const articles = [
+    ["10 Tips to Improve Your Typing Speed", "tips/index.html"],
+    ["Avro vs Bijoy: Which Bangla Layout Should You Learn?", "lessons/index.html#avro"],
+    ["Understanding WPM vs CPM", "tools/index.html#wpm"],
+  ];
+  document.getElementById("latest-articles").innerHTML = articles.map(([title, url]) =>
+    `<a class="feature-card" href="${url}"><h3>${title}</h3></a>`
+  ).join("");
+
+  // Animated counters
+  document.querySelectorAll(".counter").forEach((el) => {
+    const target = parseInt(el.dataset.target, 10);
+    let started = false;
+    const start = () => {
+      if (started) return;
+      started = true;
+      const duration = 1200, startTime = performance.now();
+      const tick = (now) => {
+        const p = Math.min((now - startTime) / duration, 1);
+        el.textContent = Math.round(target * p).toLocaleString();
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    };
+    new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) start(); });
+    }).observe(el);
+  });
+
+  // Scroll-reveal fade-up
+  document.querySelectorAll(".reveal").forEach((el) => {
+    new IntersectionObserver((entries, obs) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { e.target.classList.add("visible"); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 }).observe(el);
+  });
+</script>
 </body>
 </html>

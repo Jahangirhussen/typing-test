@@ -3,21 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>বাংলা টাইপিং টেস্ট</title>
+<title>বাংলা টাইপিং টেস্ট — ফ্রি WPM ও সঠিকতা পরীক্ষা</title>
+<meta name="description" content="ফ্রি বাংলা টাইপিং স্পিড টেস্ট। শব্দ, বাক্য, অনুচ্ছেদ, সংবাদ, একাডেমিক ও সাহিত্য বিষয়ক টেক্সট নিয়ে ৫টি কঠিনতা স্তরে অনুশীলন করুন।">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<header>
-  <a class="logo" href="../index.html">⌨ TypingTest</a>
-  <nav>
-    <a href="../english/index.html">English</a>
-    <a class="active" href="../bangla/index.html">বাংলা</a>
-    <a href="../stats/index.html">পরিসংখ্যান</a>
-    <button id="theme-toggle" title="থিম পরিবর্তন">🎨</button>
-    <button id="sound-toggle" title="সাউন্ড">🔊</button>
-  </nav>
-</header>
-<main>
+<div id="site-header"></div>
+<main class="page-main">
+  <section class="hero small-hero">
+    <h1>বাংলা টাইপিং টেস্ট</h1>
+    <p class="hero-sub">আসল শব্দ, বাক্য ও বিষয়ভিত্তিক অনুচ্ছেদ দিয়ে আপনার গতি পরীক্ষা করুন।</p>
+  </section>
+
   <div class="controls">
     <div class="control-group" id="mode-group">
       <button data-mode="words" class="active">শব্দ</button>
@@ -70,12 +67,32 @@
     <button class="secondary" id="copy-btn" style="display:none;">ফলাফল কপি করুন</button>
     <button class="secondary" id="share-btn" style="display:none;">শেয়ার করুন</button>
   </div>
+
+  <section class="section">
+    <h2>সম্পর্কিত অনুশীলন</h2>
+    <div class="card-grid">
+      <a class="feature-card" href="../english/index.html"><h3>English Typing Test</h3><p>Practice in English</p></a>
+      <a class="feature-card" href="../practice/index.html"><h3>প্র্যাকটিস হাব</h3><p>সব কঠিনতা স্তর</p></a>
+      <a class="feature-card" href="../lessons/index.html#avro"><h3>Avro Guide</h3><p>ফোনেটিক পদ্ধতিতে টাইপ শিখুন</p></a>
+      <a class="feature-card" href="../certificate/index.html"><h3>সার্টিফিকেট নিন</h3><p>PDF হিসেবে ডাউনলোড করুন</p></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>প্রশ্নোত্তর</h2>
+    <div class="faq-list">
+      <details><summary>WPM কীভাবে হিসাব হয়?</summary><p>WPM = (সঠিকভাবে টাইপ করা অক্ষর সংখ্যা / ৫) ÷ মিনিট — প্রতি ৫ অক্ষরে ১ শব্দ ধরা হয়।</p></details>
+      <details><summary>টেক্সট কি পুনরাবৃত্তি হয়?</summary><p>না — সাম্প্রতিক ব্যবহৃত টেক্সট এড়িয়ে নতুন কনটেন্ট দেখানো হয়।</p></details>
+      <details><summary>টেস্টের মাঝে কঠিনতা পরিবর্তন করা যায়?</summary><p>হ্যাঁ, যেকোনো অপশন পরিবর্তন করলেই নতুন কনটেন্ট দিয়ে টেস্ট আবার শুরু হয়।</p></details>
+    </div>
+  </section>
 </main>
-<footer>&copy; 2026 TypingTest</footer>
+<div id="site-footer"></div>
 
 <script src="../js/app.js"></script>
 <script src="../js/content.js"></script>
 <script src="../js/engine.js"></script>
+<script src="../js/layout.js" data-base="../"></script>
 <script>
   const textEl = document.getElementById("text-display");
   const inputEl = document.getElementById("hidden-input");

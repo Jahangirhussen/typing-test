@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jahangirhussen.github.io/typing-test/sitemap.xml

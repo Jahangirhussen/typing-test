@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing Tools - WPM & CPM Calculators - TypingTest</title>
+<meta name="description" content="Free WPM and CPM calculators plus a progress tracker summary. Calculate your typing speed instantly from words, characters, or time.">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .tool-card {
+    background: var(--panel); border: 1px solid #2a2e38; border-radius: 12px;
+    padding: 28px; max-width: 640px; margin: 0 auto; width: 100%;
+  }
+  .tool-card h2 { margin-top: 0; }
+  .tool-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+  .tool-field { flex: 1; min-width: 160px; display: flex; flex-direction: column; gap: 6px; }
+  .tool-field label { font-size: .85rem; color: var(--dim); }
+  .tool-field input, .tool-field select {
+    background: var(--bg); border: 1px solid #2a2e38; border-radius: 8px; padding: 8px 12px; color: var(--text); font-size: .95rem;
+  }
+  .tool-result { margin-top: 16px; text-align: center; }
+  .tool-result .value { font-size: 2rem; font-weight: 700; color: var(--accent); }
+  .tool-result .label { color: var(--dim); font-size: .85rem; }
+  .mode-toggle { display: flex; gap: 8px; margin-bottom: 12px; }
+  .mode-toggle button { background: var(--bg); border: 1px solid #2a2e38; color: var(--text); border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: .85rem; }
+  .mode-toggle button.active { background: var(--accent); color: #101216; }
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; max-width: 900px; width: 100%; margin: 0 auto; }
+  .stats-grid .card { background: var(--panel); border-radius: 10px; padding: 16px; text-align: center; }
+  .stats-grid .card .value { font-size: 1.6rem; font-weight: 700; color: var(--accent); }
+  .stats-grid .card .label { color: var(--dim); font-size: .8rem; margin-top: 4px; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="page-main">
+  <section class="hero small-hero">
+    <h1>Typing Tools</h1>
+    <p class="hero-sub">Quick calculators and a snapshot of your progress — no sign-up needed.</p>
+  </section>
+
+  <section class="section" id="wpm">
+    <h2>WPM Calculator</h2>
+    <div class="tool-card">
+      <div class="mode-toggle">
+        <button data-mode="words" class="active">Use Word Count</button>
+        <button data-mode="chars">Use Character Count</button>
+      </div>
+      <div class="tool-row" id="wpm-words-row">
+        <div class="tool-field">
+          <label for="wpm-words">Words typed</label>
+          <input type="number" id="wpm-words" min="0" placeholder="e.g. 150">
+        </div>
+      </div>
+      <div class="tool-row" id="wpm-chars-row" style="display:none;">
+        <div class="tool-field">
+          <label for="wpm-chars">Characters typed</label>
+          <input type="number" id="wpm-chars" min="0" placeholder="e.g. 750">
+        </div>
+      </div>
+      <div class="tool-row">
+        <div class="tool-field">
+          <label for="wpm-time">Time taken (minutes)</label>
+          <input type="number" id="wpm-time" min="0" step="0.1" placeholder="e.g. 1">
+        </div>
+      </div>
+      <button class="primary" id="wpm-calc">Calculate WPM</button>
+      <div class="tool-result">
+        <div class="value" id="wpm-result">-</div>
+        <div class="label">Words Per Minute</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cpm">
+    <h2>CPM Calculator</h2>
+    <div class="tool-card">
+      <div class="tool-row">
+        <div class="tool-field">
+          <label for="cpm-chars">Characters typed</label>
+          <input type="number" id="cpm-chars" min="0" placeholder="e.g. 750">
+        </div>
+        <div class="tool-field">
+          <label for="cpm-time">Time taken (minutes)</label>
+          <input type="number" id="cpm-time" min="0" step="0.1" placeholder="e.g. 1">
+        </div>
+      </div>
+      <button class="primary" id="cpm-calc">Calculate CPM</button>
+      <div class="tool-result">
+        <div class="value" id="cpm-result">-</div>
+        <div class="label">Characters Per Minute</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="progress">
+    <h2>Progress Tracker</h2>
+    <div class="stats-grid" id="progress-cards"></div>
+    <div class="result-actions" style="margin-top:20px;">
+      <a class="primary-btn" href="../stats/index.html">View Full Statistics</a>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="../js/engine.js"></script>
+<script>
+  // WPM calculator
+  let wpmMode = "words";
+  document.querySelectorAll(".mode-toggle button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".mode-toggle button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      wpmMode = btn.dataset.mode;
+      document.getElementById("wpm-words-row").style.display = wpmMode === "words" ? "flex" : "none";
+      document.getElementById("wpm-chars-row").style.display = wpmMode === "chars" ? "flex" : "none";
+    });
+  });
+
+  document.getElementById("wpm-calc").addEventListener("click", () => {
+    const time = parseFloat(document.getElementById("wpm-time").value);
+    let wpm = 0;
+    if (!time || time <= 0) {
+      document.getElementById("wpm-result").textContent = "Enter valid time";
+      return;
+    }
+    if (wpmMode === "words") {
+      const words = parseFloat(document.getElementById("wpm-words").value) || 0;
+      wpm = words / time;
+    } else {
+      const chars = parseFloat(document.getElementById("wpm-chars").value) || 0;
+      wpm = (chars / 5) / time;
+    }
+    document.getElementById("wpm-result").textContent = Math.round(wpm);
+  });
+
+  document.getElementById("cpm-calc").addEventListener("click", () => {
+    const chars = parseFloat(document.getElementById("cpm-chars").value) || 0;
+    const time = parseFloat(document.getElementById("cpm-time").value);
+    if (!time || time <= 0) {
+      document.getElementById("cpm-result").textContent = "Enter valid time";
+      return;
+    }
+    document.getElementById("cpm-result").textContent = Math.round(chars / time);
+  });
+
+  // Progress tracker summary
+  const history = getHistory();
+  const bestEn = getBest("english");
+  const bestBn = getBest("bangla");
+
+  function computeStreak(hist) {
+    const days = [...new Set(hist.map(r => r.date.slice(0, 10)))].sort().reverse();
+    if (days.length === 0) return 0;
+    let streak = 0;
+    let cursor = new Date();
+    for (const day of days) {
+      const cursorStr = cursor.toISOString().slice(0, 10);
+      if (day === cursorStr) {
+        streak++;
+        cursor.setDate(cursor.getDate() - 1);
+      } else {
+        break;
+      }
+    }
+    return streak;
+  }
+
+  const totalTests = history.length;
+  const avgWpm = totalTests ? Math.round(history.reduce((s, r) => s + r.wpm, 0) / totalTests) : 0;
+  const bestWpm = Math.max(bestEn ? bestEn.wpm : 0, bestBn ? bestBn.wpm : 0);
+  const streak = computeStreak(history);
+
+  const cards = [
+    ["Total Tests", totalTests],
+    ["Average WPM", avgWpm],
+    ["Best WPM", bestWpm || "-"],
+    ["Streak (days)", streak],
+  ];
+  document.getElementById("progress-cards").innerHTML = cards.map(([label, value]) =>
+    `<div class="card"><div class="value">${value}</div><div class="label">${label}</div></div>`
+  ).join("");
+</script>
+<script src="../js/layout.js" data-base="../"></script>
+</body>
+</html>

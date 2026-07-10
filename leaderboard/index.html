@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leaderboard - TypingTest</title>
+<meta name="description" content="Your local typing leaderboard: personal bests, daily, weekly and monthly top scores, and history — all computed from tests taken on this device.">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; max-width: 900px; width: 100%; margin: 0 auto; }
+  .stats-grid .card { background: var(--panel); border-radius: 10px; padding: 16px; text-align: center; }
+  .stats-grid .card .value { font-size: 1.6rem; font-weight: 700; color: var(--accent); }
+  .stats-grid .card .label { color: var(--dim); font-size: .8rem; margin-top: 4px; }
+  table { border-collapse: collapse; width: 100%; max-width: 900px; margin: 0 auto; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #2a2e38; font-size: .85rem; }
+  th { color: var(--dim); font-weight: 600; }
+  #chart { max-width: 900px; width: 100%; height: 160px; background: var(--panel); border-radius: 10px; display: block; margin: 0 auto; }
+  .local-note { text-align: center; color: var(--dim); font-size: .85rem; max-width: 600px; margin: -12px auto 0; }
+  .empty-state { text-align: center; padding: 40px 16px; }
+  .empty-state p { color: var(--dim); margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="page-main">
+  <section class="hero small-hero">
+    <h1>Leaderboard</h1>
+    <p class="hero-sub">Your local leaderboard, based on tests taken on this device. There is no server — all data lives in your browser's storage.</p>
+  </section>
+
+  <div id="lb-content"></div>
+</main>
+<div id="site-footer"></div>
+<script src="../js/engine.js"></script>
+<script>
+  const history = getHistory().slice().reverse();
+  const bestEn = getBest("english");
+  const bestBn = getBest("bangla");
+  const container = document.getElementById("lb-content");
+
+  if (history.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <p>You haven't taken any typing tests yet. Take a test to start building your leaderboard.</p>
+        <a class="primary-btn" href="../english/index.html">Take a Test</a>
+      </div>`;
+  } else {
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const now = Date.now();
+    const weekAgo = now - 7 * 86400000;
+    const monthAgo = now - 30 * 86400000;
+
+    const dailyResults = history.filter(r => r.date.startsWith(todayStr));
+    const weeklyResults = history.filter(r => new Date(r.date).getTime() >= weekAgo);
+    const monthlyResults = history.filter(r => new Date(r.date).getTime() >= monthAgo);
+
+    function bestOf(list) {
+      if (!list.length) return null;
+      return list.reduce((a, b) => (b.wpm > a.wpm ? b : a));
+    }
+
+    const dailyBest = bestOf(dailyResults);
+    const weeklyBest = bestOf(weeklyResults);
+    const monthlyBest = bestOf(monthlyResults);
+
+    function fmt(r) {
+      return r ? `${r.wpm} WPM / ${r.accuracy}%` : "-";
+    }
+
+    container.innerHTML = `
+      <section class="section">
+        <h2>Personal Best</h2>
+        <div class="stats-grid">
+          <div class="card"><div class="value">${bestEn ? bestEn.wpm : "-"}</div><div class="label">Best WPM (English)</div></div>
+          <div class="card"><div class="value">${bestEn ? bestEn.accuracy + "%" : "-"}</div><div class="label">Best Accuracy (English)</div></div>
+          <div class="card"><div class="value">${bestBn ? bestBn.wpm : "-"}</div><div class="label">Best WPM (Bangla)</div></div>
+          <div class="card"><div class="value">${bestBn ? bestBn.accuracy + "%" : "-"}</div><div class="label">Best Accuracy (Bangla)</div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Daily / Weekly / Monthly Best</h2>
+        <div class="stats-grid">
+          <div class="card"><div class="value">${fmt(dailyBest)}</div><div class="label">Today's Best</div></div>
+          <div class="card"><div class="value">${fmt(weeklyBest)}</div><div class="label">This Week's Best</div></div>
+          <div class="card"><div class="value">${fmt(monthlyBest)}</div><div class="label">This Month's Best</div></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>WPM Trend</h2>
+        <svg id="chart"></svg>
+      </section>
+
+      <section class="section">
+        <h2>Recent History</h2>
+        <table>
+          <thead>
+            <tr><th>Date</th><th>Lang</th><th>WPM</th><th>CPM</th><th>Accuracy</th><th>Errors</th><th>Duration</th></tr>
+          </thead>
+          <tbody>
+            ${history.slice(0, 50).map(r => `
+              <tr>
+                <td>${new Date(r.date).toLocaleString()}</td>
+                <td>${r.lang}</td>
+                <td>${r.wpm}</td>
+                <td>${r.cpm}</td>
+                <td>${r.accuracy}%</td>
+                <td>${r.errors}</td>
+                <td>${r.duration}s</td>
+              </tr>`).join("")}
+          </tbody>
+        </table>
+      </section>
+    `;
+
+    (function drawChart() {
+      const svg = document.getElementById("chart");
+      const data = history.slice(0, 30).reverse();
+      if (data.length < 2) { svg.outerHTML = '<p class="hero-sub" style="text-align:center;">Take a few more tests to see your trend chart.</p>'; return; }
+      const w = svg.clientWidth || 900, h = 160, pad = 20;
+      svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
+      const maxWpm = Math.max(...data.map(d => d.wpm), 10);
+      const points = data.map((d, i) => {
+        const x = pad + (i / (data.length - 1)) * (w - pad * 2);
+        const y = h - pad - (d.wpm / maxWpm) * (h - pad * 2);
+        return `${x},${y}`;
+      }).join(" ");
+      svg.innerHTML = `<polyline fill="none" stroke="var(--accent)" stroke-width="2" points="${points}" />`;
+    })();
+  }
+</script>
+<script src="../js/layout.js" data-base="../"></script>
+</body>
+</html>

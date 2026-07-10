@@ -3,21 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>English Typing Test</title>
+<title>English Typing Test — Free WPM &amp; Accuracy Test</title>
+<meta name="description" content="Free English typing speed test. Practice words, sentences, paragraphs, IELTS, academic, business and programming text across 5 difficulty levels.">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<header>
-  <a class="logo" href="../index.html">⌨ TypingTest</a>
-  <nav>
-    <a class="active" href="../english/index.html">English</a>
-    <a href="../bangla/index.html">বাংলা</a>
-    <a href="../stats/index.html">Stats</a>
-    <button id="theme-toggle" title="Switch theme">🎨</button>
-    <button id="sound-toggle" title="Toggle sound">🔊</button>
-  </nav>
-</header>
-<main>
+<div id="site-header"></div>
+<main class="page-main">
+  <section class="hero small-hero">
+    <h1>English Typing Test</h1>
+    <p class="hero-sub">Test your speed with real word lists, sentences, and topic paragraphs.</p>
+  </section>
+
   <div class="controls">
     <div class="control-group" id="mode-group">
       <button data-mode="words" data-tier="top200">Top 200</button>
@@ -73,12 +70,32 @@
     <button class="secondary" id="copy-btn" style="display:none;">Copy Result</button>
     <button class="secondary" id="share-btn" style="display:none;">Share Result</button>
   </div>
+
+  <section class="section">
+    <h2>Related Practice</h2>
+    <div class="card-grid">
+      <a class="feature-card" href="../bangla/index.html"><h3>বাংলা টাইপিং টেস্ট</h3><p>Practice in Bangla</p></a>
+      <a class="feature-card" href="../practice/index.html"><h3>Practice Hub</h3><p>All difficulty levels</p></a>
+      <a class="feature-card" href="../lessons/index.html#fingers"><h3>Finger Placement</h3><p>Learn proper technique</p></a>
+      <a class="feature-card" href="../certificate/index.html"><h3>Get Certificate</h3><p>Download your result as PDF</p></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>FAQ</h2>
+    <div class="faq-list">
+      <details><summary>How is WPM calculated?</summary><p>WPM = (correct characters typed / 5) divided by minutes elapsed — the standard "5 characters = 1 word" convention.</p></details>
+      <details><summary>Does the text repeat?</summary><p>No — a no-repeat system avoids showing recently used sentences/paragraphs until the pool is exhausted.</p></details>
+      <details><summary>Can I change difficulty mid-test?</summary><p>Yes, changing any control instantly restarts the test with fresh content.</p></details>
+    </div>
+  </section>
 </main>
-<footer>&copy; 2026 TypingTest</footer>
+<div id="site-footer"></div>
 
 <script src="../js/app.js"></script>
 <script src="../js/content.js"></script>
 <script src="../js/engine.js"></script>
+<script src="../js/layout.js" data-base="../"></script>
 <script>
   const textEl = document.getElementById("text-display");
   const inputEl = document.getElementById("hidden-input");

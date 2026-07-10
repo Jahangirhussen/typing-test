@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — Frequently Asked Questions About TypingTest</title>
+<meta name="description" content="Answers to common questions about WPM and accuracy, English and Bangla typing tests, data storage, offline use, and browser support.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main class="page-main">
+
+  <section class="hero">
+    <h1>Frequently Asked Questions</h1>
+    <p class="hero-sub">Everything you need to know about how the typing tests work, what's supported, and how your data is handled.</p>
+  </section>
+
+  <section class="section reveal">
+    <h2>General Typing FAQ</h2>
+    <div class="faq-list">
+      <details><summary>What is WPM and how is it calculated?</summary><p>WPM stands for Words Per Minute. It's calculated using the standard convention that one "word" equals 5 characters: correct characters typed divided by 5, divided by the elapsed time in minutes. This keeps the measure consistent regardless of how long or short the actual words in the text are.</p></details>
+      <details><summary>What is CPM?</summary><p>CPM stands for Characters Per Minute — the raw number of correctly typed characters in one minute, without the "5 characters = 1 word" conversion used for WPM. It's a more granular measure, especially useful for languages like Bangla where word length varies more than in English.</p></details>
+      <details><summary>How is accuracy measured?</summary><p>Accuracy is the percentage of correctly typed characters out of all characters you attempted, factoring in any mistakes you made along the way — even ones you later corrected count toward your error total, since the goal is to measure clean, first-try typing.</p></details>
+      <details><summary>Is TypingTest free to use?</summary><p>Yes, completely free. There are no paywalls, subscriptions, or premium tiers — every mode, difficulty level, language, and feature is available to everyone.</p></details>
+      <details><summary>Do I need to create an account?</summary><p>No account or sign-up is required. Your results, history, and personal bests are saved locally in your browser so you can start typing immediately.</p></details>
+      <details><summary>Can I get a certificate for my results?</summary><p>Yes — after completing a test you can generate and download a personalized PDF certificate showing your WPM, accuracy, and the date, available from the Certificate page.</p></details>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>English Test FAQ</h2>
+    <div class="faq-list">
+      <details><summary>What word tiers are available?</summary><p>Top 200, Top 1000, and Top 5000 most common English words, letting you practice with a small tight loop of frequent words or a much larger, more varied vocabulary.</p></details>
+      <details><summary>What categories of paragraphs can I practice?</summary><p>English paragraph practice includes general text, IELTS-style passages, academic writing, business writing, technology topics, and programming-related text, in addition to standalone sentences and short quotes.</p></details>
+      <details><summary>How do difficulty levels affect the English test?</summary><p>Difficulty changes the length and complexity of the words or sentences shown — Beginner uses short, simple words, while Expert draws from longer, technical vocabulary and denser sentence structure. See the <a href="../practice/index.html#beginner">Practice Hub</a> for a breakdown of each level.</p></details>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Bangla Test FAQ</h2>
+    <div class="faq-list">
+      <details><summary>Does the site support Avro or Bijoy input directly?</summary><p>The site itself doesn't implement an input method — it simply displays Bangla text as proper Unicode for you to reproduce. Whether you type it using Avro (phonetic), Bijoy (fixed-key), or any other Bangla IME is entirely determined by what you have installed at the operating-system level.</p></details>
+      <details><summary>Do I need special software to type Bangla?</summary><p>Yes, you need a Bangla input method enabled on your device — most operating systems include a built-in Bangla keyboard option, or you can install dedicated software like Avro Keyboard. See the <a href="../lessons/index.html#bangla">Bangla Typing Lessons</a> for details.</p></details>
+      <details><summary>What categories of Bangla content are available?</summary><p>Bangla practice includes common word lists, natural sentences, and category paragraphs, mirroring the structure of the English test so you can practice the same range of content in either language.</p></details>
+      <details><summary>Is the Bangla text real, human-written content?</summary><p>Yes — all Bangla words, sentences, and paragraphs are genuine, natural Bangla text stored as Unicode, not machine-transliterated placeholder text.</p></details>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <h2>Technical FAQ</h2>
+    <div class="faq-list">
+      <details><summary>Is my data stored anywhere besides my browser?</summary><p>No. All test history, personal bests, and settings are stored locally in your browser's localStorage. Nothing is uploaded to a server, and no account or personal information is collected.</p></details>
+      <details><summary>Does it work offline?</summary><p>Once a page and its assets have loaded, the typing test itself runs entirely client-side with no server calls needed to function, so it will keep working through a brief connection drop. A full offline/installable experience depends on your browser's caching behavior for the site.</p></details>
+      <details><summary>Which browsers are supported?</summary><p>The site is built with standard modern web technology and works on current versions of Chrome, Firefox, Edge, and Safari, on both desktop and mobile.</p></details>
+      <details><summary>Why did my progress disappear after I cleared my browser data?</summary><p>Because history and personal bests live in your browser's localStorage rather than on a server, clearing your browsing data, using a private/incognito window, or switching browsers or devices will reset or hide that saved progress. Export your history to CSV or JSON beforehand if you want to keep a backup.</p></details>
+    </div>
+  </section>
+
+  <section class="cta-section reveal">
+    <h2>Still have questions?</h2>
+    <p style="color:var(--dim); margin:0 0 20px;">Explore the Lessons and Tips pages for deeper guides, or just start typing — the interface explains itself as you go.</p>
+    <div class="hero-cta">
+      <a class="primary-btn" href="../lessons/index.html">Read Lessons</a>
+      <a class="primary-btn alt" href="../english/index.html">Start Typing</a>
+    </div>
+  </section>
+
+</main>
+<div id="site-footer"></div>
+<script src="../js/layout.js" data-base="../"></script>
+</body>
+</html>

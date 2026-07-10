@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - Typing Tips, Guides & Bangla Typing - TypingTest</title>
+<meta name="description" content="Articles on typing speed, accuracy training, Bangla typing methods, touch typing technique, and building a daily practice habit.">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .blog-search { max-width: 500px; margin: 0 auto; width: 100%; }
+  .blog-search input {
+    width: 100%; background: var(--panel); border: 1px solid #2a2e38; border-radius: 8px;
+    padding: 10px 16px; color: var(--text); font-size: .95rem;
+  }
+  .cat-pills { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .cat-pill {
+    background: var(--panel); border: 1px solid #2a2e38; border-radius: 20px; padding: 8px 18px;
+    font-size: .85rem; cursor: pointer; color: var(--text);
+  }
+  .cat-pill.active { background: var(--accent); color: #101216; border-color: var(--accent); }
+  .article-tag {
+    display: inline-block; font-size: .7rem; text-transform: uppercase; letter-spacing: .05em;
+    color: var(--accent); margin-bottom: 6px;
+  }
+  .article-card { text-align: left; }
+  .article-card h3 { font-size: 1.05rem; }
+  .article-card p { margin: 4px 0 8px; }
+  .article-card a.read-more { font-size: .82rem; color: var(--caret); text-decoration: none; }
+  .no-results { text-align: center; color: var(--dim); padding: 20px; }
+  .article-full { max-width: 760px; margin: 0 auto; background: var(--panel); border: 1px solid #2a2e38; border-radius: 12px; padding: 32px; scroll-margin-top: 90px; }
+  .article-full h2 { margin-top: 0; }
+  .article-full .article-tag { margin-bottom: 12px; }
+  .article-full p { line-height: 1.7; color: var(--text); }
+  .related-box { margin-top: 24px; padding-top: 16px; border-top: 1px solid #2a2e38; font-size: .9rem; }
+  .related-box a { color: var(--caret); text-decoration: none; margin-right: 16px; }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="page-main">
+  <section class="hero small-hero">
+    <h1>Blog</h1>
+    <p class="hero-sub">Practical guides on typing speed, accuracy, and Bangla typing.</p>
+  </section>
+
+  <div class="blog-search">
+    <input type="text" id="blog-search" placeholder="Search articles by title...">
+  </div>
+
+  <div class="cat-pills" id="cat-pills">
+    <button class="cat-pill active" data-cat="all">All</button>
+    <button class="cat-pill" data-cat="Tips">Tips</button>
+    <button class="cat-pill" data-cat="Bangla">Bangla</button>
+    <button class="cat-pill" data-cat="Guides">Guides</button>
+  </div>
+
+  <section class="section">
+    <div class="card-grid" id="article-list">
+      <div class="feature-card article-card" data-category="Guides" data-title="How WPM Is Calculated and Why It Matters">
+        <span class="article-tag">Guides</span>
+        <h3>How WPM Is Calculated and Why It Matters</h3>
+        <p>WPM looks like a simple number, but the formula behind it shapes how you should train. Here's exactly how it's computed and why accuracy quietly controls your score.</p>
+        <a class="read-more" href="#wpm-calculated">Read article →</a>
+      </div>
+      <div class="feature-card article-card" data-category="Bangla" data-title="Avro vs Bijoy: Choosing a Bangla Typing Method">
+        <span class="article-tag">Bangla</span>
+        <h3>Avro vs Bijoy: Choosing a Bangla Typing Method</h3>
+        <p>Avro and Bijoy solve the same problem in very different ways. A practical comparison to help you pick the right one for your workflow.</p>
+        <a class="read-more" href="#avro-vs-bijoy">Read article →</a>
+      </div>
+      <div class="feature-card article-card" data-category="Tips" data-title="5 Habits That Silently Slow Down Your Typing">
+        <span class="article-tag">Tips</span>
+        <h3>5 Habits That Silently Slow Down Your Typing</h3>
+        <p>Most speed plateaus aren't caused by weak fingers — they're caused by habits you don't notice. Here are five of the most common ones.</p>
+        <a class="read-more" href="#slow-habits">Read article →</a>
+      </div>
+      <div class="feature-card article-card" data-category="Guides" data-title="The Difference Between Speed and Accuracy Training">
+        <span class="article-tag">Guides</span>
+        <h3>The Difference Between Speed and Accuracy Training</h3>
+        <p>Training for speed and training for accuracy are not the same exercise. Understanding the difference will change how you practice.</p>
+        <a class="read-more" href="#speed-vs-accuracy">Read article →</a>
+      </div>
+      <div class="feature-card article-card" data-category="Tips" data-title="Why Touch Typing Still Matters in the AI Era">
+        <span class="article-tag">Tips</span>
+        <h3>Why Touch Typing Still Matters in the AI Era</h3>
+        <p>AI writes drafts, but humans still edit, prompt, chat, and code at the keyboard constantly. Touch typing hasn't become obsolete — it's changed shape.</p>
+        <a class="read-more" href="#touch-typing-ai">Read article →</a>
+      </div>
+      <div class="feature-card article-card" data-category="Guides" data-title="Building a Daily Typing Practice Routine That Sticks">
+        <span class="article-tag">Guides</span>
+        <h3>Building a Daily Typing Practice Routine That Sticks</h3>
+        <p>Improvement comes from consistency, not marathon sessions. Here's a simple routine structure that's easy to actually keep up.</p>
+        <a class="read-more" href="#daily-routine">Read article →</a>
+      </div>
+    </div>
+    <div class="no-results" id="no-results" style="display:none;">No articles match your search.</div>
+  </section>
+
+  <section class="section" id="articles">
+    <div class="article-full" id="wpm-calculated">
+      <span class="article-tag">Guides</span>
+      <h2>How WPM Is Calculated and Why It Matters</h2>
+      <p>Words per minute (WPM) is the standard unit for measuring typing speed, but the way it's calculated surprises a lot of people the first time they see it explained. The convention used by nearly every typing test, including this one, defines one "word" as five characters — including spaces and punctuation. So if you type 250 correct characters in one minute, that's treated as 50 words, giving you a score of 50 WPM. This standardization exists because real words vary wildly in length, and without a fixed unit, someone typing short words like "a cat sat" would appear far faster than someone typing "philosophical" repeatedly, even if both are moving their fingers at the same physical rate.</p>
+      <p>The formula in practice is: WPM = (correct characters / 5) ÷ minutes elapsed. Notice the word "correct" — this is the detail most people miss. Characters you typed incorrectly, even if you later fixed them, don't count toward your WPM in most implementations, and in stricter ones your error count actively reduces your effective score. This is precisely why accuracy and speed are not independent stats you can improve separately. If you type fast but sloppily, your raw keystroke count might look impressive, but your WPM — the number that actually reflects useful output — will lag behind someone slower but cleaner.</p>
+      <p>This matters practically in a few ways. First, when comparing your score across different tests or tools, check whether they measure gross WPM (all characters typed) or net WPM (correct characters only, sometimes with an error penalty). The numbers can differ by 10-20% for the same performance. Second, understanding the formula explains why professional typists obsess over accuracy first and speed second — a single missed keystroke early in a word often invalidates the rest of that word's contribution to your score, since most engines compare character-by-character against the target text.</p>
+      <p>Finally, WPM is a useful benchmark, but it's not the only thing worth tracking. CPM (characters per minute) gives a finer-grained view of raw motor speed, and error rate tells you where your training focus should go. A well-rounded typist watches all three: WPM for overall output, accuracy for reliability, and error patterns for what specifically needs work — certain finger combinations, symbol keys, or unfamiliar words. Once you understand what's actually being measured, your practice sessions stop being about "typing faster" in the abstract and start being about eliminating the specific mistakes that are capping your real score.</p>
+      <div class="related-box">Related: <a href="#speed-vs-accuracy">The Difference Between Speed and Accuracy Training</a><a href="#slow-habits">5 Habits That Silently Slow Down Your Typing</a></div>
+    </div>
+
+    <div class="article-full" id="avro-vs-bijoy">
+      <span class="article-tag">Bangla</span>
+      <h2>Avro vs Bijoy: Choosing a Bangla Typing Method</h2>
+      <p>If you're learning to type in Bangla, you'll quickly run into two dominant input methods: Avro Phonetic and Bijoy (Bijoy Bayanno, using a classical keyboard layout). They represent two completely different philosophies, and picking the right one depends heavily on your background and what you're typing for.</p>
+      <p>Avro Phonetic works by transliteration — you type Bangla words using their English/Roman phonetic spelling, and the software converts them into proper Bangla script in real time. Typing "ami" produces "আমি", typing "bangla" produces "বাংলা". This makes Avro extremely approachable for people who already know an English (QWERTY) keyboard layout but have never memorized a dedicated Bangla keymap. There's essentially no new muscle memory to build for the keys themselves — the learning curve is about getting the phonetic spelling conventions right (long vs. short vowels, conjunct consonants) rather than where symbols live on the keyboard. This is why Avro tends to be the default recommendation for casual users, students, and anyone switching between English and Bangla constantly throughout the day.</p>
+      <p>Bijoy, by contrast, uses a fixed non-phonetic layout, where each key is mapped directly to a specific Bangla character or diacritic, independent of how the word sounds in Roman letters. It has been the traditional standard in Bangladeshi print, publishing, and government offices for decades, and many older professional typists — especially those trained before Unicode-era software became common — are extremely fast on it precisely because of that institutional history. Once memorized, Bijoy can actually be faster for pure Bangla-only typing because keystrokes map to characters more directly, without the phonetic-to-script conversion step Avro relies on.</p>
+      <p>So which should you choose? If you're a beginner, bilingual, or typing casually — for chat, social media, or study notes — Avro's low barrier to entry makes it the practical choice, and it's also what most modern Bangla typing tests (including this site) default to for learners. If you're entering a field where Bijoy is the entrenched professional standard, such as certain publishing or government-adjacent typing jobs, it's worth learning Bijoy specifically, ideally after you already have solid touch-typing fundamentals from Avro or English practice. Many experienced Bangla typists eventually learn both, using Avro for speed and flexibility and Bijoy where institutional compatibility is required.</p>
+      <div class="related-box">Related: <a href="#touch-typing-ai">Why Touch Typing Still Matters in the AI Era</a><a href="#daily-routine">Building a Daily Typing Practice Routine That Sticks</a></div>
+    </div>
+
+    <div class="article-full" id="slow-habits">
+      <span class="article-tag">Tips</span>
+      <h2>5 Habits That Silently Slow Down Your Typing</h2>
+      <p>Most people who plateau at a certain WPM assume they need to "type faster," but speed is usually a symptom, not the root cause. Here are five common habits that quietly cap typing speed, often without the typist realizing it.</p>
+      <p><strong>1. Looking at the keyboard.</strong> Glancing down breaks your visual rhythm and forces your eyes to re-find their place in the source text every time. Even brief, occasional glances add up to real seconds lost over a full test. The fix is deliberately practicing with your eyes locked on the screen, even if it feels slower and more error-prone at first — the discomfort is temporary and the payoff is permanent.</p>
+      <p><strong>2. Over-correcting every single mistake immediately.</strong> Stopping to backspace and fix a typo the instant it happens interrupts your typing flow and often costs more time than the error itself would have. Skilled typists develop a sense for which mistakes are worth an immediate fix versus which can be corrected in a natural pause, or ignored if a test allows it.</p>
+      <p><strong>3. Improper finger-to-key assignment ("hunt and peck" hybrid typing).</strong> Many self-taught typists develop a personal system that works but relies heavily on just two or three fingers per hand. This caps your ceiling hard because your fingers are traveling much farther on average than a proper touch-typing layout requires. Relearning correct finger placement feels like a regression at first, but it's the single highest-leverage fix for long-term speed.</p>
+      <p><strong>4. Tensed hands and poor posture.</strong> Physical tension in the wrists, shoulders, or fingers reduces the fluidity of movement between keys. Typists who sit rigidly or grip the keys too hard fatigue faster and lose micro-speed across a session. Relaxed hands hovering lightly over the home row consistently outperform tense ones.</p>
+      <p><strong>5. Practicing only at your comfort speed.</strong> If every practice session is typed at a pace where you feel fully in control, you're reinforcing your current ceiling rather than raising it. Structured practice should include short bursts pushed slightly beyond your comfortable pace, even if accuracy dips temporarily — this is how the brain and fingers adapt to a faster tempo over time.</p>
+      <div class="related-box">Related: <a href="#speed-vs-accuracy">The Difference Between Speed and Accuracy Training</a><a href="#wpm-calculated">How WPM Is Calculated and Why It Matters</a></div>
+    </div>
+
+    <div class="article-full" id="speed-vs-accuracy">
+      <span class="article-tag">Guides</span>
+      <h2>The Difference Between Speed and Accuracy Training</h2>
+      <p>It's tempting to treat "getting better at typing" as one single skill, but speed and accuracy actually respond to different kinds of practice, and conflating them is one of the most common reasons people stall out.</p>
+      <p>Accuracy training is about consistency under normal conditions. The goal isn't to type fast — it's to type correctly, every time, at a pace you can fully control. This kind of practice usually involves slowing down deliberately, focusing on clean finger placement, and paying close attention to which specific keys or letter combinations trip you up. It's boring by design. The payoff is that your error rate drops, which — as covered in how WPM is calculated — has an outsized effect on your real typing score, since mistakes cost far more than they seem to on the surface.</p>
+      <p>Speed training, on the other hand, deliberately pushes you past your comfort zone. This means typing bursts at a pace where you know you're going to make more mistakes than usual, on purpose. The goal here isn't a clean run — it's to force your fingers and brain to adapt to a faster tempo, building the motor patterns that let a higher ceiling feel normal over time. If you only ever practice at a comfortable pace, you're rehearsing your current limit, not extending it.</p>
+      <p>The mistake most people make is picking one and ignoring the other. Typists who only do speed drills develop bad habits and high error rates that eventually cap their real-world WPM, because messy output doesn't count as fast output. Typists who only do accuracy drills stay clean but plateau, because they never train the reflexes needed to go faster.</p>
+      <p>A balanced routine alternates between the two: a few short, controlled, accuracy-focused sessions per week to iron out specific weak points, combined with occasional short speed bursts — 15 to 30 seconds of typing as fast as you can tolerate, even sloppily — to stretch your ceiling. Over weeks, the accuracy work makes your baseline cleaner, and the speed work raises what "fast" means for you, and the two reinforce each other rather than competing.</p>
+      <div class="related-box">Related: <a href="#wpm-calculated">How WPM Is Calculated and Why It Matters</a><a href="#slow-habits">5 Habits That Silently Slow Down Your Typing</a></div>
+    </div>
+
+    <div class="article-full" id="touch-typing-ai">
+      <span class="article-tag">Tips</span>
+      <h2>Why Touch Typing Still Matters in the AI Era</h2>
+      <p>With AI tools now capable of drafting entire emails, essays, and code from a short prompt, it's fair to ask whether typing speed is becoming an obsolete skill. The honest answer is: the nature of typing has shifted, but the need for it hasn't gone away — it's just moved.</p>
+      <p>Consider what a typical workday actually looks like now. You're not necessarily typing long-form prose from scratch as often, but you're constantly typing prompts, refining them, chatting with AI assistants, reviewing and editing generated text, searching, messaging colleagues, and writing code — often interactively, line by line, with an AI pair programmer suggesting completions you accept, reject, or modify. Every one of those interactions still happens at a keyboard, and the friction of slow, error-prone typing shows up in all of them, just distributed differently than it used to be.</p>
+      <p>There's also a subtler effect: when typing is effortless, it stops being a bottleneck between your thoughts and the screen. Touch typists don't consciously think about where their fingers are going, which frees up mental bandwidth for the actual task — composing a precise prompt, debugging a tricky function, or writing a clear message — rather than the mechanical act of finding keys. In an era where the quality of what you type (a prompt, a query, a piece of feedback) matters more than the sheer volume, that freed-up cognitive space is arguably more valuable than it was before, not less.</p>
+      <p>Touch typing also remains a baseline professional skill in ways that are easy to overlook: fast, accurate note-taking in meetings, live chat support, transcription-adjacent work, and any job involving high-volume data entry haven't disappeared because AI exists. If anything, the rise of AI-assisted workflows has made keyboard fluency more universal, since more roles now involve some degree of iterative text interaction with a model. Learning to type well isn't a hedge against irrelevance — it's infrastructure that makes every other digital skill, AI-assisted or not, a little faster and less frustrating to use.</p>
+      <div class="related-box">Related: <a href="#daily-routine">Building a Daily Typing Practice Routine That Sticks</a><a href="#avro-vs-bijoy">Avro vs Bijoy: Choosing a Bangla Typing Method</a></div>
+    </div>
+
+    <div class="article-full" id="daily-routine">
+      <span class="article-tag">Guides</span>
+      <h2>Building a Daily Typing Practice Routine That Sticks</h2>
+      <p>The biggest obstacle to improving your typing speed usually isn't knowledge — it's consistency. Most people who try to improve do a couple of long, intense sessions, burn out, and quietly stop within a week or two. A routine that actually sticks looks smaller and more boring than most people expect, and that's exactly why it works.</p>
+      <p>Start with time, not distance. Rather than committing to "type 10 paragraphs a day," commit to a fixed, short block of time — 10 minutes is plenty for most people starting out. A short daily habit beats an occasional long one because skill-building of this kind depends on frequency and repetition more than raw duration. Ten focused minutes a day, five days a week, will outperform a single exhausting hour on a Sunday almost every time, both because fatigue degrades practice quality and because spaced repetition genuinely trains motor memory better than cramming.</p>
+      <p>Structure the block instead of freestyling it. A simple three-part structure works well: begin with two or three minutes of slow, accuracy-focused typing to warm up and reset your form, follow with four or five minutes of normal-paced practice on real test content, and finish with one or two short speed bursts pushed past your comfort zone. This mirrors the balance discussed in speed-versus-accuracy training, and doing both inside a single short session keeps the habit efficient rather than requiring separate practice days for each skill.</p>
+      <p>Track something, even informally. Checking your WPM and accuracy after each session — this site's stats page does this automatically — gives you a visible signal of progress, which matters enormously for staying motivated over weeks rather than days. Progress in typing speed is rarely linear; you'll see plateaus and small regressions along the way, and having a simple trend line to look at helps you trust the process instead of quitting during a flat week.</p>
+      <p>Finally, anchor the habit to something you already do. Practicing right after your morning coffee, right before checking email, or right after sitting down at your desk gives the habit a consistent trigger, which is far more reliable for sticking with it long-term than relying on willpower or a reminder alone.</p>
+      <div class="related-box">Related: <a href="#slow-habits">5 Habits That Silently Slow Down Your Typing</a><a href="#touch-typing-ai">Why Touch Typing Still Matters in the AI Era</a></div>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script>
+  const searchInput = document.getElementById("blog-search");
+  const pills = document.querySelectorAll(".cat-pill");
+  const cards = document.querySelectorAll(".article-card");
+  const noResults = document.getElementById("no-results");
+  let activeCat = "all";
+
+  function applyFilters() {
+    const q = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const matchesCat = activeCat === "all" || card.dataset.category === activeCat;
+      const matchesSearch = !q || card.dataset.title.toLowerCase().includes(q);
+      const show = matchesCat && matchesSearch;
+      card.style.display = show ? "" : "none";
+      if (show) visibleCount++;
+    });
+    noResults.style.display = visibleCount === 0 ? "block" : "none";
+  }
+
+  searchInput.addEventListener("input", applyFilters);
+  pills.forEach(pill => {
+    pill.addEventListener("click", () => {
+      pills.forEach(p => p.classList.remove("active"));
+      pill.classList.add("active");
+      activeCat = pill.dataset.cat;
+      applyFilters();
+    });
+  });
+</script>
+<script src="../js/layout.js" data-base="../"></script>
+</body>
+</html>

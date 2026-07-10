@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate - TypingTest</title>
+<meta name="description" content="Generate a printable certificate of achievement showing your best WPM and accuracy, and download it as a PDF via your browser's print dialog.">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .cert-wrap { display: flex; justify-content: center; }
+  .certificate {
+    width: 100%;
+    max-width: 720px;
+    background: var(--panel);
+    border: 3px double var(--accent);
+    border-radius: 16px;
+    padding: 48px 40px;
+    text-align: center;
+    position: relative;
+  }
+  .certificate .cert-logo { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+  .certificate h1 { font-size: 2rem; margin: 8px 0 4px; letter-spacing: .04em; }
+  .certificate .cert-sub { color: var(--dim); font-size: .9rem; margin-bottom: 28px; text-transform: uppercase; letter-spacing: .1em; }
+  .certificate .cert-name { font-size: 1.8rem; font-weight: 700; color: var(--text); margin: 12px 0; border-bottom: 2px solid var(--accent); display: inline-block; padding: 0 24px 8px; min-width: 260px; }
+  .certificate .cert-line { color: var(--dim); font-size: 1rem; margin: 16px 0; }
+  .cert-metrics { display: flex; justify-content: center; gap: 40px; margin: 24px 0; }
+  .cert-metrics .m .value { font-size: 1.6rem; font-weight: 700; color: var(--accent); }
+  .cert-metrics .m .label { color: var(--dim); font-size: .78rem; margin-top: 2px; }
+  .cert-date { color: var(--dim); font-size: .85rem; margin-top: 24px; }
+  .form-row { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; align-items: center; max-width: 720px; margin: 0 auto; }
+  .form-row input[type="text"] {
+    background: var(--bg); border: 1px solid #2a2e38; border-radius: 8px; padding: 10px 14px; color: var(--text); font-size: .95rem; flex: 1; min-width: 220px;
+  }
+  .lang-toggle-row { display: flex; gap: 8px; }
+  .lang-toggle-row button.active { background: var(--accent); color: #101216; }
+  .lang-toggle-row button { background: var(--panel); border: 1px solid #2a2e38; color: var(--text); border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+  .cert-note { text-align: center; color: var(--dim); font-size: .8rem; max-width: 500px; margin: 0 auto; }
+  @media print {
+    #site-header, #site-footer, .form-row, .lang-toggle-row, .result-actions, .cert-note, .hero { display: none !important; }
+    body, .page-main { background: #fff !important; padding: 0 !important; margin: 0 !important; }
+    .certificate { border-color: #444 !important; box-shadow: none !important; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main class="page-main">
+  <section class="hero small-hero">
+    <h1>Certificate of Achievement</h1>
+    <p class="hero-sub">Generate a personalized certificate from your best typing result and download it as a PDF.</p>
+  </section>
+
+  <div class="form-row">
+    <input type="text" id="name-input" placeholder="Enter your name">
+    <div class="lang-toggle-row">
+      <button id="lang-en" class="active" data-lang="english">English</button>
+      <button id="lang-bn" data-lang="bangla">Bangla</button>
+    </div>
+  </div>
+
+  <div class="cert-wrap">
+    <div class="certificate" id="certificate">
+      <div class="cert-logo">⌨ TypingTest</div>
+      <div class="cert-sub">Certificate of Achievement</div>
+      <h1>Certificate of Achievement</h1>
+      <div class="cert-line">This certifies that</div>
+      <div class="cert-name" id="cert-name">Your Name</div>
+      <div class="cert-line" id="cert-line2">has completed a typing test with the following result</div>
+      <div class="cert-metrics">
+        <div class="m"><div class="value" id="cert-wpm">-</div><div class="label">WPM</div></div>
+        <div class="m"><div class="value" id="cert-acc">-</div><div class="label">Accuracy</div></div>
+        <div class="m"><div class="value" id="cert-lang">-</div><div class="label">Language</div></div>
+      </div>
+      <div class="cert-date" id="cert-date">Complete a test to generate your certificate</div>
+    </div>
+  </div>
+
+  <div class="result-actions">
+    <button class="primary" id="download-btn" disabled>Download / Print Certificate</button>
+    <button class="secondary" id="print-btn" disabled>Print</button>
+    <button class="secondary" id="share-btn" disabled>Share</button>
+  </div>
+  <p class="cert-note">Download / Print opens your browser's print dialog — choose "Save as PDF" as the destination to download a PDF copy.</p>
+</main>
+<div id="site-footer"></div>
+<script src="../js/engine.js"></script>
+<script>
+  let currentLang = "english";
+  const nameInput = document.getElementById("name-input");
+  const certName = document.getElementById("cert-name");
+  const certWpm = document.getElementById("cert-wpm");
+  const certAcc = document.getElementById("cert-acc");
+  const certLang = document.getElementById("cert-lang");
+  const certDate = document.getElementById("cert-date");
+  const certLine2 = document.getElementById("cert-line2");
+  const downloadBtn = document.getElementById("download-btn");
+  const printBtn = document.getElementById("print-btn");
+  const shareBtn = document.getElementById("share-btn");
+
+  function render() {
+    const best = getBest(currentLang);
+    certName.textContent = nameInput.value.trim() || "Your Name";
+    if (best) {
+      certWpm.textContent = best.wpm;
+      certAcc.textContent = best.accuracy + "%";
+      certLang.textContent = currentLang === "english" ? "English" : "Bangla";
+      certDate.textContent = "Achieved on " + new Date(best.date).toLocaleDateString();
+      certLine2.textContent = "has achieved the following typing result";
+      downloadBtn.disabled = false;
+      printBtn.disabled = false;
+      shareBtn.disabled = false;
+    } else {
+      certWpm.textContent = "-";
+      certAcc.textContent = "-";
+      certLang.textContent = currentLang === "english" ? "English" : "Bangla";
+      certDate.textContent = "Complete a test to generate your certificate";
+      certLine2.textContent = "has not yet completed a typing test";
+      downloadBtn.disabled = true;
+      printBtn.disabled = true;
+      shareBtn.disabled = true;
+    }
+  }
+
+  nameInput.addEventListener("input", render);
+
+  document.getElementById("lang-en").addEventListener("click", (e) => {
+    currentLang = "english";
+    document.querySelectorAll(".lang-toggle-row button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    render();
+  });
+  document.getElementById("lang-bn").addEventListener("click", (e) => {
+    currentLang = "bangla";
+    document.querySelectorAll(".lang-toggle-row button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    render();
+  });
+
+  function doPrint() { window.print(); }
+  downloadBtn.addEventListener("click", doPrint);
+  printBtn.addEventListener("click", doPrint);
+
+  shareBtn.addEventListener("click", () => {
+    const best = getBest(currentLang);
+    if (!best) return;
+    const name = nameInput.value.trim() || "I";
+    const text = `${name} achieved ${best.wpm} WPM with ${best.accuracy}% accuracy on TypingTest (${currentLang})!`;
+    if (navigator.share) {
+      navigator.share({ text }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(text).then(() => alert("Share not supported on this browser — summary copied to clipboard instead."));
+    }
+  });
+
+  render();
+</script>
+<script src="../js/layout.js" data-base="../"></script>
+</body>
+</html>
