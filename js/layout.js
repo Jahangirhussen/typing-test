@@ -345,6 +345,19 @@
       });
     }
 
+    // Scroll-reveal fade-up (global, so any page using .reveal works without its own script)
+    if (typeof IntersectionObserver === "function") {
+      document.querySelectorAll(".reveal").forEach((el) => {
+        new IntersectionObserver((entries, obs) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) { e.target.classList.add("visible"); obs.unobserve(e.target); }
+          });
+        }, { threshold: 0.1 }).observe(el);
+      });
+    } else {
+      document.querySelectorAll(".reveal").forEach((el) => el.classList.add("visible"));
+    }
+
     if (typeof initTheme === "function") initTheme();
     if (typeof initSound === "function") initSound();
   });

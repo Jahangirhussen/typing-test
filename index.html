@@ -243,15 +243,6 @@
       entries.forEach((e) => { if (e.isIntersecting) start(); });
     }).observe(el);
   });
-
-  // Scroll-reveal fade-up
-  document.querySelectorAll(".reveal").forEach((el) => {
-    new IntersectionObserver((entries, obs) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) { e.target.classList.add("visible"); obs.unobserve(e.target); }
-      });
-    }, { threshold: 0.1 }).observe(el);
-  });
 </script>
 </body>
 </html>

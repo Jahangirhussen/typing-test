@@ -612,6 +612,7 @@ footer {
 
 html, body { max-width: 100%; overflow-x: hidden; }
 img, svg { max-width: 100%; }
+table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
 .page-main { align-items: stretch; max-width: 1200px; margin: 0 auto; width: 100%; padding: 40px 24px; gap: 56px; }
 
