@@ -591,8 +591,11 @@ footer {
 
 /* Responsive: mobile */
 @media (max-width: 600px) {
-  header { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
-  header .logo { font-size: 1rem; }
+  header, .site-header { padding: 10px 12px; flex-wrap: wrap; gap: 8px; }
+  header .logo, .site-header .logo { font-size: 1rem; }
+  .header-inner { gap: 8px; flex-wrap: nowrap; }
+  .header-actions { gap: 2px; }
+  .header-actions button, .search-btn { padding: 6px 8px; font-size: .85rem; }
   nav a { margin-left: 12px; font-size: .85rem; }
   main { padding: 20px 12px; gap: 16px; }
   .controls { width: 100%; }
